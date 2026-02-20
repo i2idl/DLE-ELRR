@@ -1,0 +1,330 @@
+bfa55d6 | Eric Chang | 2025-07-28 | Merge branch 'ci-check' into 'master'
+e7f4538 | Eric Chang | 2025-07-25 | Add unit tests, fix code smells and dependency issues
+f51b3db | Eric Chang | 2025-07-24 | Add populate start date and end date logic for Credential and Competency
+167c106 | Florian Tolk | 2025-07-03 | Added Apache2 License
+f9982c3 | Cliff Casey | 2025-07-03 | Merge branch 'docker_compose_and_env_fix' into 'master'
+27d2df0 | Cliff Casey | 2025-07-02 | local docker compose and Dockerfile simplification
+b2a5a51 | Eric Chang | 2025-07-01 | Merge branch 'aggregator-restructure' into 'master'
+1e14ddb | Eric Chang | 2025-07-01 | Fix Sonarqube, trufflehog and dependency-check issue
+cee115a | Eric Chang | 2025-07-01 | Merge latest aggreagator main GH
+060d601 | Eric Chang | 2025-06-27 | Rm unnecessary files
+1387935 | Eric Chang | 2025-06-26 | Revert "Update pom to add SQ config matching working p1 setup"
+3d69cfd | Eric Chang | 2025-06-26 | Update pom to add SQ config matching working p1 setup
+524683c | Eric Chang | 2025-06-26 | Update dockerfile
+05bdbd6 | Eric Chang | 2025-06-26 | Revert "Update aggreagator dockerfile path"
+b2f77d8 | Eric Chang | 2025-06-25 | Update aggreagator dockerfile path
+a5c82aa | Eric Chang | 2025-06-25 | Total restructure from github parent project with support for entities
+3c6d21c | Michael Son | 2025-02-10 | Merge branch 'twistlock-update' into 'master'
+8aee117 | Michael Son | 2025-02-10 | update json smart
+8fdbc45 | Michael Son | 2025-01-27 | Merge branch 'twistlock-update' into 'master'
+f0f964d | Michael Son | 2025-01-27 | update twistlock
+3fd68e4 | Michael Son | 2025-01-27 | Merge branch 'twistlock-update' into 'master'
+97556ae | Michael Son | 2025-01-27 | update spring web
+f6a4109 | Michael Son | 2025-01-27 | Merge branch 'twistlock-update' into 'master'
+d59f495 | Michael Son | 2025-01-27 | update twistlock findings
+9ecdaa0 | Michael Son | 2024-07-12 | Merge branch 'fix-pipeline' into 'master'
+cc4ff73 | Michael Son | 2024-07-12 | fix twistlock
+9b63698 | Michael Son | 2024-07-12 | Merge branch 'fix-pipeline' into 'master'
+84f1b74 | Michael Son | 2024-07-12 | fix twistlock
+062a808 | Michael Son | 2024-07-12 | Merge branch 'fix-pipeline' into 'master'
+d562308 | Michael Son | 2024-07-12 | fix twistlock
+b90d695 | Michael Son | 2024-07-12 | Merge branch 'fix-pipeline' into 'master'
+3cf699b | Michael Son | 2024-07-12 | fix twistlock
+bc29015 | Michael Son | 2024-07-12 | Merge branch 'fix-pipeline' into 'master'
+d620f79 | Michael Son | 2024-07-12 | fix twistlock
+71e8ef8 | Michael Son | 2024-06-17 | Merge branch 'dep-check-update' into 'master'
+9318027 | Michael Son | 2024-06-06 | dep issue
+ccee960 | Michael Son | 2024-06-06 | Merge branch 'dep-check-update' into 'master'
+5476e72 | Michael Son | 2024-06-04 | update springboot v
+143b56f | Michael Son | 2024-04-29 | Merge branch 'depcheck_update' into 'master'
+c07563b | Michael Son | 2024-04-29 | update spring v
+df05ef9 | Michael Son | 2024-03-20 | Merge branch 'depcheck_update' into 'master'
+4d35511 | Michael Son | 2024-03-20 | update postgres version
+3add609 | Michael Son | 2024-03-20 | Merge branch 'depcheck_update' into 'master'
+6d3cfae | Michael Son | 2024-03-20 | update springframework version to 3.2.3
+27cc326 | Simeranjeet Sandhu | 2024-01-30 | Merge branch 'cyp-e2e' into 'master'
+8424168 | Simeranjeet Sandhu | 2024-01-30 | Updated endpoint for cypress e2e tests
+b3c1054 | Simeranjeet Sandhu | 2024-01-30 | Merge branch 'cyp-e2e' into 'master'
+211791e | Simeranjeet Sandhu | 2024-01-30 | Updated cypress e2e tests
+5e87769 | Seth Mednick | 2024-01-30 | Merge branch 'filter' into 'master'
+cf55735 | smednick | 2024-01-30 | fix lint
+111cd89 | Seth Mednick | 2024-01-30 | Merge branch 'filter' into 'master'
+71d2bd2 | smednick | 2024-01-30 | fix lint and sonar
+7d759bb | Seth Mednick | 2024-01-30 | Merge branch 'filter' into 'master'
+62b51ba | smednick | 2024-01-30 | fix lint and sonar
+e264f63 | Seth Mednick | 2024-01-30 | Merge branch 'filter' into 'master'
+94894e2 | smednick | 2024-01-30 | added whitelist filter to kafka listener
+bb5d685 | Seth Mednick | 2024-01-22 | Merge branch 'testseth' into 'master'
+b1b49fd | smednick | 2024-01-22 | added cypress info
+b0b40c5 | Simeranjeet Sandhu | 2024-01-19 | Merge branch 'pipeline-fix' into 'master'
+d8e83b9 | Simeranjeet Sandhu | 2024-01-19 | Upgraded hutool-core to 5.8.25
+e09485f | Simeranjeet Sandhu | 2024-01-09 | Merge branch 'pipeline-fix' into 'master'
+4aa092d | Simeranjeet Sandhu | 2024-01-09 | Sq Deps: upgraded hutool-core
+2500c00 | Seth Mednick | 2023-12-11 | Merge branch 'sdadditions' into 'master'
+23a6a4d | Seth Mednick | 2023-12-11 | Lint fix
+090642f | Simeranjeet Sandhu | 2023-12-11 | Merge branch 'sq-deps' into 'master'
+33cc897 | Simeranjeet Sandhu | 2023-12-11 | upgraded logback-classic to 1.14.14
+a990482 | Simeranjeet Sandhu | 2023-12-11 | Merge branch 'sq-deps' into 'master'
+72f5b94 | Simeranjeet Sandhu | 2023-12-11 | upgraded logback-core to 1.14.14
+5b9186b | Simeranjeet Sandhu | 2023-12-11 | Merge branch 'sq-deps' into 'master'
+2fca0af | Simeranjeet Sandhu | 2023-12-11 | upgraded logback-core to 1.14.12
+a82d388 | Simeranjeet Sandhu | 2023-12-11 | Merge branch 'sq-deps' into 'master'
+f298815 | Simeranjeet Sandhu | 2023-12-11 | upgraded json to 20231013
+05fa62a | Simeranjeet Sandhu | 2023-12-11 | Merge branch 'sq-deps' into 'master'
+e0d4013 | Simeranjeet Sandhu | 2023-12-11 | upgraded hutool-json to 5.8.22
+ac746d5 | Simeranjeet Sandhu | 2023-12-11 | Merge branch 'sq-deps' into 'master'
+b8727a5 | Simeranjeet Sandhu | 2023-12-11 | upgraded json to 20230618
+084ac3f | Simeranjeet Sandhu | 2023-12-11 | Merge branch 'sq-deps' into 'master'
+93225d2 | Simeranjeet Sandhu | 2023-12-11 | upgraded jackson-databind to 2.16.0
+e59b4af | Simeranjeet Sandhu | 2023-12-11 | upgraded jackson-databind to 2.16.0
+d1a4b01 | Seth Mednick | 2023-12-08 | Merge branch 'sdadditions' into 'master'
+8b359fc | smednick | 2023-12-08 | lint fix
+3bf8924 | Seth Mednick | 2023-12-08 | Merge branch 'sdadditions' into 'master'
+1c5cdda | smednick | 2023-12-08 | test coverage and lint fixes
+2927c9e | smednick | 2023-12-08 | fix lint
+5ecdd18 | Seth Mednick | 2023-12-08 | Merge branch 'sdadditions' into 'master'
+28445cb | smednick | 2023-12-08 | pom for build
+bd586fb | smednick | 2023-12-08 | additions to address sdelements and add security
+9ab86bf | Simeranjeet Sandhu | 2023-11-29 | Merge branch 'sq-deps' into 'master'
+f23e733 | Simeranjeet Sandhu | 2023-11-29 | Upgraded spring-boot-starter-parent to 3.1.6
+86278d2 | Simeranjeet Sandhu | 2023-11-28 | Merge branch 'sq-deps' into 'master'
+ed32338 | Simeranjeet Sandhu | 2023-11-28 | SQ Deps: added/upgraded commons-fileupload to 1.5
+b650b9f | Simeranjeet Sandhu | 2023-11-28 | Merge branch 'sq-deps' into 'master'
+133fb37 | Simeranjeet Sandhu | 2023-11-28 | SQ Deps: snappy-java upgraded to 1.1.10.4/excluded in kafka clients
+58b0ca2 | Simeranjeet Sandhu | 2023-11-28 | Merge branch 'sq-deps' into 'master'
+8726e86 | Simeranjeet Sandhu | 2023-11-27 | Sq deps: excluded commons-io from maven-shared-utils
+c2db60d | Simeranjeet Sandhu | 2023-11-28 | Merge branch 'sq-deps' into 'master'
+0984b2e | Simeranjeet Sandhu | 2023-11-27 | SQ deps: upgraded snakeyaml to 2.0/excluded in spring-boot-starter-web
+cf834e2 | Simeranjeet Sandhu | 2023-11-28 | Merge branch 'sq-deps' into 'master'
+7782091 | Simeranjeet Sandhu | 2023-11-27 | SQ deps: Excluded plexus-classworlds from plexus-container-default
+c2a4492 | Simeranjeet Sandhu | 2023-11-28 | Merge branch 'sq-deps' into 'master'
+be52e3b | Simeranjeet Sandhu | 2023-11-27 | SQ deps: Upgraded plexus-container-default to 2.1.1
+115fecb | Simeranjeet Sandhu | 2023-11-28 | Merge branch 'sq-deps' into 'master'
+99d10e9 | Simeranjeet Sandhu | 2023-11-27 | SQ deps: Upgraded maven-shared-utils to 3.3.3
+99c90ef | Simeranjeet Sandhu | 2023-11-28 | Merge branch 'sq-deps' into 'master'
+9b4beda | Simeranjeet Sandhu | 2023-11-27 | SQ deps: Upgraded surefire-shared-utils to 3.3.3
+8f978f4 | Simeranjeet Sandhu | 2023-11-28 | Merge branch 'sq-deps' into 'master'
+92cad4d | Simeranjeet Sandhu | 2023-11-27 | SQ deps: Upgraded surefire-shared-utils to 3.2.2
+f6cbc14 | Simeranjeet Sandhu | 2023-11-28 | Merge branch 'sq-deps' into 'master'
+775af2d | Simeranjeet Sandhu | 2023-11-27 | Upgraded spring-boot-starter-parent to 3.1.5
+86999b3 | Simeranjeet Sandhu | 2023-10-12 | Merge branch 'pipeline-fixes' into 'master'
+d9df8a3 | Simeranjeet Sandhu | 2023-10-12 | Reverting base image back to oraclejdk
+8c742a6 | Michael Son | 2023-03-20 | Merge branch 'develop1' into 'master'
+2b95fad | Mohan Nelakurti | 2023-03-20 | Update application-local.properties
+39fa68c | Mohan Nelakurti | 2023-03-20 | Update application.properties
+8e6a9cb | Simeranjeet Sandhu | 2023-03-07 | Merge branch 'develop2' into 'master'
+c121c28 | Mohan | 2023-03-07 | exclusion added for jakarta.activation-api
+458e5f6 | Simeranjeet Sandhu | 2023-03-06 | Merge branch 'develop2' into 'master'
+fc29398 | Mohan | 2023-03-06 | updated to handle jsonType object
+1b63d1d | Michael Son | 2023-03-03 | Merge branch 'develop-1' into 'master'
+170fefa | Mohan Nelakurti | 2023-03-03 | Update application.properties
+8089ed7 | Mohan Nelakurti | 2023-03-03 | Update application-local.properties
+20545cc | Simeranjeet Sandhu | 2023-03-02 | Merge branch 'agg-update' into 'master'
+33a95ca | ssandhu | 2023-03-02 | removed json-path exclusions
+d2c174e | Michael Son | 2023-03-02 | Merge branch 'develop3' into 'master'
+8578bd7 | Mohan | 2023-03-02 | change json
+12ffaaa | Simeranjeet Sandhu | 2023-03-02 | Merge branch 'docker-image-update' into 'master'
+57d9e2f | ssandhu | 2023-03-02 | Updated base image
+5ac51e4 | Mohan Nelakurti | 2023-03-02 | Merge branch 'develop3' into 'master'
+5e84869 | Mohan | 2023-03-02 | revertback the change json type at class level
+40c8da1 | Michael Son | 2023-03-02 | Merge branch 'develop3' into 'master'
+cf94613 | Mohan | 2023-03-02 | removed class level converter
+a55f674 | Mohan Nelakurti | 2023-03-02 | Merge branch 'develop3' into 'master'
+55c4176 | Mohan | 2023-03-02 | io.hypersistence.utils.hibernate.type.json.JsonType
+9699406 | Mohan Nelakurti | 2023-03-02 | Merge branch 'develop3' into 'master'
+602bd3c | Mohan | 2023-03-02 | removed json type for test
+e020892 | Michael Son | 2023-03-01 | Merge branch 'develop1' into 'master'
+2dbae96 | Mohan | 2023-03-01 | xml bind to runtime
+079a96e | Michael Son | 2023-03-01 | Merge branch 'develop1' into 'master'
+8e22151 | Mohan | 2023-03-01 | lint issues fix
+1c58b5e | Michael Son | 2023-03-01 | Merge branch 'develop1' into 'master'
+9efd852 | Mohan | 2023-03-01 | lint issue fix
+7938f73 | Michael Son | 2023-03-01 | Merge branch 'develop1' into 'master'
+d72487e | Mohan | 2023-03-01 | added to address hibernate issue
+0f138a7 | Michael Son | 2023-03-01 | Merge branch 'develop1' into 'master'
+d1707aa | Mohan | 2023-03-01 | added to address hibernate issue
+bafe3c8 | Michael Son | 2023-03-01 | Merge branch 'updatepomxml' into 'master'
+4ce8a2f | Michael Son | 2023-03-01 | update hibernate version
+76a7ae0 | Simeranjeet Sandhu | 2023-03-01 | Merge branch 'docker-image-update' into 'master'
+3ea2926 | ssandhu | 2023-03-01 | Updated docker image to latest ironbank
+4cc5527 | Michael Son | 2023-03-01 | Merge branch 'update_checkstyle' into 'master'
+55ffc10 | Michael Son | 2023-03-01 | removed unused imports
+57d1f0c | Simeranjeet Sandhu | 2023-03-01 | Merge branch 'agg-deps' into 'master'
+5c8eb00 | ssandhu | 2023-03-01 | logging dep added to pom.xml
+3a1638e | Michael Son | 2023-02-28 | Merge branch 'pomupdate' into 'master'
+8e900fb | Michael Son | 2023-02-28 | update hibernate version
+407c022 | Michael Son | 2023-02-28 | Merge branch 'pomupdate' into 'master'
+f96c7a1 | Michael Son | 2023-02-28 | add json path exclusion
+49310a3 | Michael Son | 2023-02-28 | Merge branch 'pomupdate' into 'master'
+56c8a9e | Michael Son | 2023-02-28 | removed exclusion
+fc40dd8 | Michael Son | 2023-02-28 | Merge branch 'pomupdate' into 'master'
+c03f61c | Michael Son | 2023-02-28 | update pom
+8acb0ce | Michael Son | 2023-02-28 | update pom
+d4d884f | Michael Son | 2023-02-28 | Merge branch 'update_pom' into 'master'
+e7dd2f0 | Michael Son | 2023-02-28 | exclude dependency findings
+6794cca | Michael Son | 2023-02-28 | Merge branch 'updatedependency' into 'master'
+384c2ba | Michael Son | 2023-02-28 | update pom.xml and dependencies
+938d861 | Michael Son | 2023-02-28 | Merge branch 'dependency_update' into 'master'
+d9d97f9 | Michael Son | 2023-02-28 | update docker image
+75fb375 | Simeranjeet Sandhu | 2023-02-27 | Merge branch 'resolveissues' into 'master'
+754bb94 | Michael Son | 2023-02-27 | pom.xml update
+c8313c5 | Michael Son | 2023-02-27 | Merge branch 'revert-020a17fd' into 'master'
+2f04332 | Michael Son | 2023-02-27 | Revert "Merge branch 'resolveissues' into 'master'"
+6c8b5a0 | Michael Son | 2023-02-27 | Merge branch 'resolveissues' into 'master'
+b8c5caf | Michael Son | 2023-02-27 | updated pom.xml
+020a17f | Michael Son | 2023-02-27 | Merge branch 'resolveissues' into 'master'
+ec67b3d | Michael Son | 2023-02-27 | update pom.xml
+93f2179 | Simeranjeet Sandhu | 2023-02-23 | Merge branch 'dockerfile-update' into 'master'
+74ccf1f | ssandhu | 2023-02-23 | Resolving Sonar Dependency check
+f792782 | Simeranjeet Sandhu | 2023-02-21 | Merge branch 'dockerfile-update' into 'master'
+fbb6484 | ssandhu | 2023-02-20 | Updated base image to correct ironbank image
+8f47054 | Michael Son | 2023-02-14 | Merge branch 'update_baseimage' into 'master'
+0393e48 | Michael Son | 2023-02-10 | update dockerfile base image
+d5b9a36 | Michael Son | 2023-02-10 | Merge branch 'develop' into 'master'
+6d9c5d0 | Mohan | 2023-02-10 | updated kafka p1 internal service
+2eb6a0b | Mohan Nelakurti | 2023-02-09 | Merge branch 'develop' into 'master'
+473624f | Mohan Nelakurti | 2023-02-09 | Update application.properties
+c3ec8f3 | Mohan Nelakurti | 2023-02-09 | changed kafka service url
+8a83b09 | Mohan Nelakurti | 2023-01-30 | Merge branch 'develop' into 'master'
+01b2c3f | Mohan Nelakurti | 2023-01-30 | Update application.properties
+4d19fde | Mohan Nelakurti | 2023-01-30 | Update application-local.properties
+23a874c | Mohan Nelakurti | 2023-01-25 | Merge branch 'develop' into 'master'
+335f983 | Mohan Nelakurti | 2023-01-25 | Update pom.xml
+4bdcb54 | Mohan Nelakurti | 2023-01-25 | Merge branch 'develop' into 'master'
+97f109b | Mohan Nelakurti | 2023-01-25 | Update pom.xml
+da66c05 | Mohan Nelakurti | 2023-01-25 | Update Dockerfile
+a21c0a1 | Mohan Nelakurti | 2023-01-25 | Merge branch 'develop' into 'master'
+3f16e52 | Mohan Nelakurti | 2023-01-25 | Update Dockerfile removed dependency folder
+568b059 | Michael Son | 2023-01-25 | Merge branch 'develop' into 'master'
+ee91605 | Mohan Nelakurti | 2023-01-25 | Updated Dockerfile to correct classpath and extra arguments ALGORITHM and com.redhat.fips=false etc
+8a0eb17 | Mohan Nelakurti | 2022-12-22 | Update application.properties
+d79e9b6 | Mohan Nelakurti | 2022-12-22 | Update P1 DB connection properties with environment application-local.properties
+737cd61 | Mohan Nelakurti | 2022-12-21 | Update commons-codec-1.15.jar | Reference: CVE-2021-37533 pom.xml
+aba75c3 | Mohan Nelakurti | 2022-12-01 | Merge branch 'develop' into 'master'
+76f9435 | Mohan Nelakurti | 2022-12-01 | corrected to use new JUnit version and fix compiler issues Update DatasyncApplicationTests.java
+eada19e | Michael Son | 2022-11-30 | Merge branch 'develop' into 'master'
+787c45e | Mohan Nelakurti | 2022-11-30 | Updated pom.xml to address sonar scan issues
+4e8c27d | Mohan Nelakurti | 2022-11-29 | Merge branch 'develop' into 'master'
+6dda401 | Mohan Nelakurti | 2022-11-29 | fix for Sonar dependency issues and prepare the complete jar pom.xml
+f236976 | Michael Son | 2022-11-17 | Merge branch 'develop' into 'master'
+482cd84 | Mohan | 2022-11-17 | updated jdk version
+95fb1c7 | Michael Son | 2022-06-28 | Merge branch 'update_test_case' into 'master'
+6bd3f9f | Michael Son | 2022-06-28 | update dockerfile
+c6814d8 | Michael Son | 2022-06-16 | Merge branch 'update_test_case' into 'master'
+dc4bbfe | Michael Son | 2022-06-15 | update to jdk13
+64f8d09 | Michael Son | 2022-06-16 | Merge branch 'update_test_case' into 'master'
+26e3942 | Michael Son | 2022-06-15 | fix docker version
+0dd490e | Michael Son | 2022-06-16 | Merge branch 'update_test_case' into 'master'
+44c4b60 | Michael Son | 2022-06-15 | update docker file
+df174b1 | Mohan Nelakurti | 2022-06-15 | Merge branch 'sonarissue' into 'master'
+cdbce41 | Mohan Nelakurti | 2022-06-15 | jnuit test cases for jpa services
+39caaed | Mohan Nelakurti | 2022-06-14 | Merge branch 'sonarissue' into 'master'
+288c85f | Mohan Nelakurti | 2022-06-14 | added new junit classes
+9b59855 | Mohan Nelakurti | 2022-06-14 | Merge branch 'sonarissue' into 'master'
+faf8fe6 | Mohan Nelakurti | 2022-06-14 | junit test cases
+7606fb0 | Michael Son | 2022-06-14 | Merge branch 'update_test_case' into 'master'
+d3d81c5 | Michael Son | 2022-06-14 | update test cases
+57a05f6 | Michael Son | 2022-06-13 | Merge branch 'update_test_case' into 'master'
+e2bec67 | Michael Son | 2022-06-13 | update test case
+b8891fc | Michael Son | 2022-06-10 | Merge branch 'update_test_case' into 'master'
+51de6f3 | Michael Son | 2022-06-10 | test files
+5ca0b11 | Michael Son | 2022-06-10 | Merge branch 'update_test_case' into 'master'
+4d0eaa1 | Michael Son | 2022-06-10 | update test case
+f613d83 | Michael Son | 2022-06-10 | Merge branch 'update_test_case' into 'master'
+f1cc94c | Michael Son | 2022-06-10 | update test case
+e228b8c | Michael Son | 2022-06-10 | Merge branch 'update_test_case' into 'master'
+249ada0 | Michael Son | 2022-06-10 | update test file
+ebbe801 | Michael Son | 2022-06-10 | Merge branch 'update_test_case' into 'master'
+1563581 | Michael Son | 2022-06-10 | update test case
+59c1c31 | Michael Son | 2022-06-10 | Merge branch 'update_test_case' into 'master'
+d4b0f33 | Michael Son | 2022-06-10 | update test file
+b7d4ca5 | Michael Son | 2022-06-10 | Merge branch 'update_test_case' into 'master'
+ae367d8 | Michael Son | 2022-06-10 | add test case for competencysvc
+664246c | Michael Son | 2022-06-09 | Merge branch 'update_test_case' into 'master'
+0972652 | Michael Son | 2022-06-09 | update test case
+8b62fe1 | Michael Son | 2022-06-09 | Merge branch 'update_test_case' into 'master'
+cfbd10e | Michael Son | 2022-06-09 | update test case
+95021cd | Michael Son | 2022-06-09 | Merge branch 'update_test_case' into 'master'
+61156cb | Michael Son | 2022-06-09 | update test case
+8f8f243 | Michael Son | 2022-06-09 | Merge branch 'update_test_case' into 'master'
+a486863 | Michael Son | 2022-06-09 | update test case
+c20c759 | Michael Son | 2022-06-09 | Merge branch 'update_test_case' into 'master'
+af4c0d7 | Michael Son | 2022-06-09 | update test case
+ef1b4ec | Michael Son | 2022-06-09 | Merge branch 'update_test_case' into 'master'
+a30ee89 | Michael Son | 2022-06-09 | update test case
+87a9147 | Michael Son | 2022-06-09 | Merge branch 'update_test_case' into 'master'
+033988a | Michael Son | 2022-06-09 | update test case
+73ff4b6 | Michael Son | 2022-06-09 | Merge branch 'update_test_case' into 'master'
+8592ba7 | Michael Son | 2022-06-09 | update test case
+c9d50a5 | Michael Son | 2022-06-09 | Merge branch 'update_test_case' into 'master'
+500bf09 | Michael Son | 2022-06-09 | update test case
+6295002 | Michael Son | 2022-06-09 | Merge branch 'update_test_case' into 'master'
+66bd830 | Michael Son | 2022-06-09 | update test case
+b3e8351 | Michael Son | 2022-06-09 | Merge branch 'revert-0fe3773e' into 'master'
+d7614b1 | Michael Son | 2022-06-09 | Revert "Merge branch 'update_test_cases' into 'master'"
+0fe3773 | Michael Son | 2022-06-09 | Merge branch 'update_test_cases' into 'master'
+65d91d7 | Michael Son | 2022-06-09 | update test case
+38c1cb8 | Michael Son | 2022-06-09 | Merge branch 'update_test_cases' into 'master'
+9a5ec12 | Michael Son | 2022-06-09 | update test case
+2b5b1b8 | Michael Son | 2022-06-09 | Merge branch 'update_test_cases' into 'master'
+34f0e16 | Michael Son | 2022-06-09 | update test case
+afe4e00 | Michael Son | 2022-06-09 | Merge branch 'update_test_cases' into 'master'
+10f0df1 | Michael Son | 2022-06-09 | updated import modules
+7e17936 | Michael Son | 2022-06-09 | Merge branch 'update_test_cases' into 'master'
+07acd5d | Michael Son | 2022-06-09 | update test cases
+84fffca | Michael Son | 2022-05-31 | Merge branch 'sonarissue' into 'master'
+3a69407 | Mohan Nelakurti | 2022-05-31 | lombok and pom xml for fixing depedency check
+7bab03b | Mohan Nelakurti | 2022-05-27 | Merge branch 'sonarissue' into 'master'
+b58b365 | Mohan Nelakurti | 2022-05-26 | encrypted for trufflehog errors
+ae6955d | Mohan Nelakurti | 2022-05-27 | Merge branch 'sonarissue' into 'master'
+6104132 | Mohan Nelakurti | 2022-05-26 | encriypted for trufflehog errors
+0395c45 | Michael Son | 2022-05-25 | Merge branch 'sonarissue' into 'master'
+04b6b79 | Mohan Nelakurti | 2022-05-25 | depedency scan issues fixes
+81dc091 | Michael Son | 2022-05-25 | Merge branch 'sonarissue' into 'master'
+75e922d | Mohan Nelakurti | 2022-05-25 | removed other environment properties files
+45c1e97 | Mohan Nelakurti | 2022-05-25 | sonarscan issue fixes
+4faa06c | Michael Son | 2022-05-19 | Merge branch 'sonarissue' into 'master'
+bb302d3 | Mohan Nelakurti | 2022-05-19 | junit fixes
+306841d | Michael Son | 2022-05-03 | Merge branch 'sonarissue' into 'master'
+0737f90 | Mohan Nelakurti | 2022-05-03 | fixed junit change
+d4701b0 | Michael Son | 2022-05-02 | Merge branch 'sonarissue' into 'master'
+74c23fa | Mohan Nelakurti | 2022-05-02 | added files checkstyle fixes
+bf32f2c | Mohan Nelakurti | 2022-05-02 | added ContactInformationSvc.java, property fi;es checkstyle fixes
+c2e12f8 | Michael Son | 2022-05-02 | Merge branch 'sonarissue' into 'master'
+94a0415 | Mohan Nelakurti | 2022-05-02 | added service.consumer,repository pacakges, property fi;es checkstyle fixes
+f353372 | Michael Son | 2022-05-02 | Merge branch 'sonarissue' into 'master'
+1432103 | Mohan Nelakurti | 2022-05-02 | added service pacakge checkstyle fixes
+d6878a0 | Michael Son | 2022-04-29 | Merge branch 'sonarissue' into 'master'
+4414e38 | Mohan Nelakurti | 2022-04-29 | added entity pacakge sonar fixes
+6bf782c | Michael Son | 2022-04-28 | Merge branch 'sonarissue' into 'master'
+8099ec5 | Mohan Nelakurti | 2022-04-28 | sonar checkstyle issue fixes
+63ab9ee | Michael Son | 2022-03-07 | Merge branch 'property_update' into 'master'
+6354224 | Michael Son | 2022-03-07 | Update src/main/resources/application-dev.properties, src/main/resources/application-local.properties, src/main/resources/application-prod.properties, src/main/resources/application-qa.properties, src/main/resources/application-stage.properties, src/main/resources/application.properties
+84d6195 | Michael Son | 2022-02-02 | Update Dockerfile
+a4e5539 | Michael Son | 2022-02-01 | Update Dockerfile
+98859d1 | Michael Son | 2022-01-20 | Merge branch 'initial_commit' into 'master'
+800be13 | Michael Son | 2022-01-20 | Merge branch 'master' into 'initial_commit'
+7395bab | Mohan Nelakurti | 2022-01-11 | Update README.md
+2fff30d | Ubuntu | 2021-12-14 | removed k8 files
+cf1ad9e | Ubuntu | 2021-12-14 | initial commit
+8e0eb58 | Ubuntu | 2021-12-14 | initial commit
+06cce57 | Michael Son | 2021-12-14 | Initial commit
+ea4e14d | Mohan Nelakurti | 2021-09-20 | eclipse related files are added
+e9802e6 | Mohan Nelakurti | 2021-09-20 | sonalint reported issues fixes
+ac6095c | Mohan Nelakurti | 2021-09-14 | updated for ADL deployments
+86eea5b | arun darpally | 2021-09-10 | adding stage properties values
+c1b3c42 | arun darpally | 2021-09-03 | adding ADL properties file
+37bf152 | arun darpally | 2021-09-01 | adding K8 files
+81b53ba | arun darpally | 2021-08-24 | fixing project name
+370da1d | arun darpally | 2021-08-24 | Merge branch 'main' of https://github.com/US-ELRR/elrrconsolidate
+7cace29 | arun darpally | 2021-08-24 | modifying docker file
+7d45c17 | arun darpally | 2021-08-24 | adding env specific properties
+8609d03 | mnelakurti | 2021-08-23 | Update README.md
+86dd025 | mnelakurti | 2021-08-23 | Update README.md
+0afc3c7 | mnelakurti | 2021-08-23 | Update README.md
+cfe05e7 | mnelakurti | 2021-08-23 | Update README.md
+6809f9a | mnelakurti | 2021-08-23 | Update README.md
+3526a1e | mnelakurti | 2021-08-23 | Update README.md
+b9ec51c | arun darpally | 2021-08-18 | committing updated files
+fbeda88 | arun darpally | 2021-07-30 | adding elrr consoidator (kafka subscriber)
+ec5bbdd | adarpally | 2021-07-30 | Initial commit

@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: elrr-external-services
+spec:
+  template:
+    spec:
+      containers:
+      - name: elrr-external-services
+        image: elrr/elrr-external-services
+        imagePullPolicy: Always
+        env:
+        - name: JASYPT_ENCRYPTOR_PASSWORD
+          value: "elrr-external-services"
+        - name: TLS_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: mtls-client-certs
+              key: TLS_PASSWORD
+        volumeMounts:
+          - mountPath: "/tmp/mtls-client-certs"
+            name: mtls-client-certs
+            readOnly: true
+      volumes:
+        - name: mtls-client-certs
+          secret:
+            secretName: mtls-client-certs

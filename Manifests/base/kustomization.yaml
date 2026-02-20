@@ -1,0 +1,23 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+commonLabels:
+  authentication: istio-auth
+
+resources:
+- elrr-aggregator
+- elrr-datasync
+- elrr-external-services
+- elrr-services
+- elrr-zookeeper
+- elrr-kafka
+- elrr-cass
+- elrr-elasticsearch
+
+patches:
+- path: patches/deployment-defaults.yaml
+  target:
+    kind: Deployment
+- path: patches/statefulset-defaults.yaml
+  target:
+    kind: StatefulSet

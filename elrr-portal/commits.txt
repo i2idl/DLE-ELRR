@@ -1,0 +1,82 @@
+76f80c5 | Florian Tolk | 2025-07-03 | Added Apache2 License
+c835fb0 | Michael Son | 2023-01-05 | Merge branch 'unit_testing' into 'master'
+712ac80 | schittlur | 2023-01-05 | version update json5
+f17fa85 | Michael Son | 2023-01-04 | Merge branch 'unit_testing' into 'master'
+c803268 | schittlur | 2023-01-04 | updated json5
+568ad02 | Michael Son | 2023-01-04 | Merge branch 'unit_testing' into 'master'
+7d346b7 | schittlur | 2023-01-04 | json5 version update
+1f77ea2 | Michael Son | 2022-12-22 | Merge branch 'unit_testing' into 'master'
+1c929fc | schittlur | 2022-12-21 | yarn lock file
+487f4fa | Michael Son | 2022-12-20 | Merge branch 'unit_testing' into 'master'
+51a5e77 | schittlur | 2022-12-20 | adding login error messages
+6a8f744 | Michael Son | 2022-12-19 | Merge branch 'update_dockerfile' into 'master'
+55a982a | Michael Son | 2022-12-19 | change npm build to yarn build
+4748a9c | Michael Son | 2022-12-16 | Merge branch 'unit_testing' into 'master'
+35fc8c6 | schittlur | 2022-12-16 | test update
+5361762 | Michael Son | 2022-12-14 | Merge branch 'unit_testing' into 'master'
+1f245aa | schittlur | 2022-12-14 | unit testing
+15089e5 | Michael Son | 2022-12-08 | Merge branch 'sonarqube_password' into 'master'
+1cc7110 | schittlur | 2022-12-08 | password check
+2eae136 | Michael Son | 2022-12-08 | Merge branch 'sonarqube_password' into 'master'
+0a59d27 | schittlur | 2022-12-07 | password
+0628c1b | Michael Son | 2022-12-07 | Merge branch 'delete_package-lock' into 'master'
+0fc3910 | Swathi Chittlur | 2022-12-07 | Delete package-lock.json
+0c97d81 | Michael Son | 2022-12-02 | Merge branch 'sonarqube' into 'master'
+474fcea | schittlur | 2022-12-02 | fortify issues
+369b7fc | Michael Son | 2022-11-30 | Merge branch 'sonarqube' into 'master'
+87b20e0 | schittlur | 2022-11-30 | sonarqube issues
+9abb604 | Michael Son | 2022-11-29 | Merge branch 'sonarqube' into 'master'
+b3869fc | schittlur | 2022-11-29 | sonarqube
+85deed1 | Michael Son | 2022-11-22 | Merge branch 'sonarqube' into 'master'
+c4e610d | schittlur | 2022-11-22 | remove unused files
+7791176 | schittlur | 2022-11-22 | sonarqube issues resolved
+4454e2b | Michael Son | 2022-11-18 | Merge branch 'yarn-update' into 'master'
+1acb401 | schittlur | 2022-11-18 | yarn lock
+bb071be | Michael Son | 2022-11-14 | Merge branch 'tests' into 'master'
+39dce64 | Swathi Chittlur | 2022-11-14 | Delete Footer.spec.js
+95dc7ca | Michael Son | 2022-09-22 | Merge branch 'unit-tests' into 'master'
+4e196ca | schittlur | 2022-09-22 | fix failing unit tests
+b063e48 | Michael Son | 2022-09-21 | Merge branch 'unit-tests' into 'master'
+a6493f0 | schittlur | 2022-09-21 | unit tests update
+0ae1402 | schittlur | 2022-09-21 | unit tests update
+7b3be12 | Michael Son | 2022-08-30 | Merge branch 'unit-tests' into 'master'
+0e08be2 | schittlur | 2022-08-30 | unit test command
+08347e8 | Michael Son | 2022-08-30 | Merge branch 'unit-tests' into 'master'
+6a83a0f | Swathi Chittlur | 2022-08-30 | Merge branch 'master' into 'unit-tests'
+062717d | schittlur | 2022-08-30 | unit test script update
+4f5e036 | Michael Son | 2022-08-30 | Merge branch 'lint-changes' into 'master'
+645918a | schittlur | 2022-08-30 | yarn.lock file
+edd41fa | Michael Son | 2022-08-29 | Merge branch 'lint-changes' into 'master'
+3c4cfa2 | schittlur | 2022-08-29 | lint and unit test changes
+d1353f2 | Michael Son | 2022-08-25 | Merge branch 'update_careermanager' into 'master'
+e48cbee | Michael Son | 2022-08-24 | update career manager
+18cae2f | Michael Son | 2022-08-24 | Merge branch 'update_src_files' into 'master'
+a85da3f | Michael Son | 2022-08-24 | update src code
+11288ab | Michael Son | 2022-08-23 | Merge branch 'fix_error' into 'master'
+002990d | Michael Son | 2022-08-23 | remove package lock file
+dbc83e5 | Michael Son | 2022-08-23 | Merge branch 'update_errors' into 'master'
+6fed7d3 | Michael Son | 2022-08-23 | update dockerfile
+47b8724 | Michael Son | 2022-08-23 | Merge branch 'updated_portal' into 'master'
+dda9430 | Michael Son | 2022-08-23 | update portal code
+5b34f67 | Michael Son | 2022-06-29 | Merge branch 'update_json_file' into 'master'
+9c0be1b | Michael Son | 2022-06-29 | update json file
+25e21c9 | Michael Son | 2022-06-08 | Merge branch 'updatelockfile' into 'master'
+895a7ca | Michael Son | 2022-06-08 | updated yarn file
+7b74862 | Michael Son | 2022-04-28 | update files
+ae20ea7 | Michael Son | 2022-04-28 | Merge branch 'master' of https://code.il2.dso.mil/adl-ousd/elrr/elrr-portal
+416fcb4 | Michael Son | 2022-04-28 | update files
+cb1996d | Michael Son | 2022-04-28 | Merge branch 'includenewfiles' into 'master'
+c9db86d | Michael Son | 2022-04-28 | added new files
+dba25ee | Michael Son | 2022-02-01 | Update Dockerfile
+03c5ab4 | Michael Son | 2022-01-21 | Update Dockerfile
+57c4c41 | Michael Son | 2022-01-20 | Merge branch 'initial_commit' into 'master'
+950cdaf | Michael Son | 2022-01-20 | Merge branch 'master' into 'initial_commit'
+9ede937 | Mohan Nelakurti | 2022-01-11 | Update README.md
+4c6a552 | Ubuntu | 2021-12-14 | initial commit
+0d463f3 | Michael Son | 2021-12-14 | Initial commit
+047c52a | mnelakurti | 2021-08-23 | Update README.md
+c7c30b8 | mnelakurti | 2021-08-23 | Update README.md
+ee901aa | mnelakurti | 2021-08-23 | Update README.md
+81228c7 | mnelakurti | 2021-06-04 | Merge pull request #1 from US-ELRR/develop
+2d990d5 | ausdietrich | 2021-05-06 | Initial commit whole folder minus node_modules (44k files)
+4060d42 | Mike Son | 2021-04-07 | Initial commit

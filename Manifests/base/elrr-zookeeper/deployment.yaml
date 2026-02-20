@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: elrr-zookeeper
+spec:
+  strategy:
+    type: Recreate
+  template:
+    spec:
+      securityContext:
+        fsGroup: 1001
+      containers:
+      - name: elrr-zookeeper
+        image: registry1.dso.mil/ironbank/bitnami/zookeeper:3.9.3
+        imagePullPolicy: Always
+        ports:
+          - containerPort: 2181
+        env:
+        - name: ALLOW_ANONYMOUS_LOGIN
+          value: "yes"
+        - name: ZOOKEEPER_CLIENT_PORT
+          value: "2181"
+        volumeMounts:
+        - mountPath: "/bitnami"
+          name: elrr-zookeeper
+      volumes:
+      - name: elrr-zookeeper
+        persistentVolumeClaim:
+          claimName: elrr-zookeeper
+      

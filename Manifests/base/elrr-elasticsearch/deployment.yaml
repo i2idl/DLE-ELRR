@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: elrr-elasticsearch
+spec:
+  template:
+    spec:
+      containers:
+      - name: elrr-elasticsearch
+        image: registry1.dso.mil/ironbank/elastic/elasticsearch/elasticsearch:8.6.0
+        env:
+        - name: node.name
+          value: "elasticsearch"
+        - name: cluster.initial_master_nodes
+          value: "elasticsearch"
+        imagePullPolicy: Always
+        ports:
+          - containerPort: 9200
+        resources:
+          limits:
+            memory: 1Gi

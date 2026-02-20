@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test:e2e-local": "export ZAP_URL=http://localhost:8092/ && CYPRESS_BASE_URL=${ZAP_URL} npx cypress run",
+    "test:e2e-ci": "CYPRESS_BASE_URL=${ZAP_URL} npx cypress run --browser chrome --config-file cypress/config/pipeline.config.js"
+  },
+  "dependencies": {
+    "cypress": "^13.6.3"
+  }
+}

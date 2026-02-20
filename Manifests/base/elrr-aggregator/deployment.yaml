@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: elrr-aggregator
+spec:
+  template:
+    spec:
+      containers:
+      - name: elrr-aggregator
+        image: elrr/elrr-aggregator
+        imagePullPolicy: Always
+        resources:
+          limits:
+            memory: 1Gi
+        envFrom:
+        - secretRef:
+            name: pg-db-credentials
+        - secretRef:
+            name: postgres-connect-info
+        env:
+        - name: PG_DATABASE
+          valueFrom:
+            secretKeyRef:
+              name: pg-db-credentials
+              key: APP_DB_NAME2
+        - name: PG_RW_USER
+          valueFrom:
+            secretKeyRef:
+              name: pg-db-credentials
+              key: PG_DB_RW_USER_2
+        - name: PG_RW_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: pg-db-credentials
+              key: PG_DB_RW_PASSWORD_2
+        - name: JASYPT_ENCRYPTOR_PASSWORD
+          value: "elrr-aggregator"

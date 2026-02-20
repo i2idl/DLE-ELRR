@@ -1,0 +1,3 @@
+DC_PG_DB=service_db
+DC_PG_USER=service_user
+DC_PG_PASSWORD=service_password

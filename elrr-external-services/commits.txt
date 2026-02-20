@@ -1,0 +1,596 @@
+22b39f8 | Cliff Casey | 2025-12-11 | Merge branch 'v2.6.0' into 'master'
+4f0f393 | Cliff Casey | 2025-12-08 | convert to IB image build / repackage
+0779a1d | Eric Chang | 2025-07-16 | Merge branch 'ci-filter' into 'master'
+a139110 | Leven | 2025-07-15 | Don't check HTTP header for HTTPS.
+ce1ee9f | Leven | 2025-07-15 | Don't check for https if contains svc.cluster.local.
+641d8e3 | Leven | 2025-07-15 | Do not check HTTP header.
+aa01829 | Eric Chang | 2025-07-15 | Update commons-lang3 dependency for twistlock scan
+402ffaa | Eric Chang | 2025-07-15 | Merge branch 'ci-config' into 'master'
+f3920f3 | Eric Chang | 2025-07-14 | Add test properties
+dcd36aa | Eric Chang | 2025-07-14 | Remove spring.profiles.active
+c7b212f | Eric Chang | 2025-07-14 | Merge branch 'ci-docker' into 'master'
+568233d | Eric Chang | 2025-07-14 | Update dockerfile for deployment
+b9f9793 | Eric Chang | 2025-07-14 | Merge branch 'ci-log' into 'master'
+1ea3637 | Leven | 2025-07-11 | Remove response logging.
+465ba36 | Leven | 2025-07-11 | Re-factor logging.
+7144629 | Leven | 2025-07-11 | Add logging to ELRRStagingController.
+91aeccb | Eric Chang | 2025-07-11 | Merge branch 'ci-check-fix' into 'master'
+8e5edd8 | Eric Chang | 2025-07-11 | Remove extra file
+1e52dd7 | Eric Chang | 2025-07-11 | Revert back ELRRStageControllerTest
+20ae74e | Eric Chang | 2025-07-11 | Skip size check for get request
+1e6b93e | Eric Chang | 2025-07-10 | Update lrs url, username and password
+bf83356 | Cliff Casey | 2025-07-03 | license
+3c1eab6 | Eric Chang | 2025-06-30 | Remove owasp plugin
+bde74f3 | 1Phil | 2025-06-28 | Add body to JUn it test. Change error message if unknown request size.
+1da6aeb | Leven | 2025-06-27 | Check for request size = -1.
+978ca8d | Leven | 2025-06-24 | Fix .pom.
+733004f | Leven | 2025-06-23 | Add owasp dependency-check maven plugin to .pom.
+0ff87fa | Florian Tolk | 2025-07-03 | Added Apache2 License
+5c1e557 | Eric Chang | 2025-06-23 | Merge branch 'ci-dependency-update' into 'master'
+45ebc83 | Eric Chang | 2025-06-20 | Fix p1 dependency-check issue
+d536ac8 | Eric Chang | 2025-06-20 | Add exlusion
+6fd6a9d | Eric Chang | 2025-06-20 | Update dependencies
+7261737 | Eric Chang | 2025-06-20 | Update spacing
+44ac95d | Leven | 2025-06-20 | Remove unused dependencies from .pom.
+bad3879 | Leven | 2025-06-19 | Remove unsed dependencies from .pom. Add maven-dependency-plugin to .pom.
+4907a52 | Eric Chang | 2025-06-18 | Merge branch 'twistlock-fix' into 'master'
+aa9639f | Eric Chang | 2025-06-18 | Update maven dependencies security vulnerabilities identified by Twistlock
+e5256de | Eric Chang | 2025-06-17 | Merge branch 'ci-fix' into 'master'
+b5ac218 | Leven | 2025-06-16 | Turn on filters.  Fix JUnit test.
+4134aac | Eric Chang | 2025-06-17 | Add header filter test
+c195573 | Eric Chang | 2025-06-16 | Remove mocksaml file
+c6abfa3 | Eric Chang | 2025-06-13 | Rm unneeded github files
+fd061a2 | Eric Chang | 2025-06-13 | Update pom
+6311d2d | Eric Chang | 2025-06-12 | Remove SanatizingFilter
+88e8302 | Eric Chang | 2025-06-12 | Merge branch main from GH
+dceadc1 | Michael Son | 2025-02-03 | Merge branch 'update-twistlock' into 'master'
+a523dcc | Michael Son | 2025-02-03 | spring update
+7f99062 | Michael Son | 2025-02-03 | Merge branch 'update-twistlock' into 'master'
+b08d82a | Michael Son | 2025-02-03 | starter parent
+aadbe00 | Michael Son | 2025-02-03 | Merge branch 'update-twistlock' into 'master'
+e78b7b3 | Michael Son | 2025-02-03 | update spring
+9d0f67c | Michael Son | 2025-02-03 | webmvc
+27d7a52 | Michael Son | 2025-02-03 | Merge branch 'update-twistlock' into 'master'
+8bdf610 | Michael Son | 2025-02-03 | logback
+06a470d | Michael Son | 2025-02-03 | Merge branch 'update-twistlock' into 'master'
+3eb7039 | Michael Son | 2025-02-03 | update spring parent
+640abc4 | Michael Son | 2025-02-03 | Merge branch 'update-twistlock' into 'master'
+cd2f8ac | Michael Son | 2025-02-03 | update spring web
+530118c | Michael Son | 2025-02-03 | Merge branch 'update-twistlock' into 'master'
+60b3268 | Michael Son | 2025-02-03 | update logback
+e47abab | Michael Son | 2025-02-03 | Merge branch 'update-twistlock' into 'master'
+40766a1 | Michael Son | 2025-02-03 | update webmvc
+b92be74 | Michael Son | 2025-02-03 | Merge branch 'update-twistlock' into 'master'
+1890c2e | Michael Son | 2025-02-03 | logback
+77e43e4 | Michael Son | 2025-02-03 | Merge branch 'update-twistlock' into 'master'
+cb1bc5e | Michael Son | 2025-02-03 | update logback
+ce358f7 | Michael Son | 2025-02-03 | Merge branch 'update-twistlock' into 'master'
+be66983 | Michael Son | 2025-02-03 | remove logback
+c049a08 | Michael Son | 2025-02-03 | Merge branch 'update-twistlock' into 'master'
+a5d4c47 | Michael Son | 2025-02-03 | update spring web
+f688e01 | Michael Son | 2025-02-03 | Merge branch 'update-twistlock' into 'master'
+69ef7ee | Michael Son | 2025-02-03 | spring web
+4c847db | Michael Son | 2025-02-03 | Merge branch 'update-twistlock' into 'master'
+50923d8 | Michael Son | 2025-02-03 | update spring web
+11b89cd | Michael Son | 2025-02-03 | Merge branch 'update-twistlock' into 'master'
+757ae4f | Michael Son | 2025-02-03 | update spring web
+cbf21f9 | Michael Son | 2025-01-31 | Merge branch 'update-twistlock' into 'master'
+49ede66 | Michael Son | 2025-01-31 | revert changes
+c509ff3 | Michael Son | 2025-01-31 | Merge branch 'update-twistlock' into 'master'
+c8fba8e | Michael Son | 2025-01-31 | add webmvc
+99e5eb7 | Michael Son | 2025-01-31 | Merge branch 'update-twistlock' into 'master'
+16e08e0 | Michael Son | 2025-01-31 | update spring web
+186bd58 | Michael Son | 2025-01-31 | Merge branch 'update-twistlock' into 'master'
+c8cde90 | Michael Son | 2025-01-31 | maven shared utils
+f0ecd96 | Michael Son | 2025-01-31 | Merge branch 'update-twistlock' into 'master'
+d3da78e | Michael Son | 2025-01-31 | spring web
+73b13e6 | Michael Son | 2025-01-31 | Merge branch 'update-twistlock' into 'master'
+14e9e04 | Michael Son | 2025-01-31 | spring context
+9b8960e | Michael Son | 2025-01-31 | Merge branch 'update-twistlock' into 'master'
+a9a339a | Michael Son | 2025-01-31 | springboot-starter-security
+d956c29 | Michael Son | 2025-01-30 | Merge branch 'update-twistlock' into 'master'
+228a7d8 | Michael Son | 2025-01-30 | update spring boot starter web
+2d3e599 | Michael Son | 2025-01-30 | Merge branch 'update-twistlock' into 'master'
+376f153 | Michael Son | 2025-01-30 | add spring security config
+3ed10bb | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+788194a | Michael Son | 2025-01-29 | update logback version
+78fd089 | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+a715d42 | Michael Son | 2025-01-29 | add tomcat-embed
+6f2668d | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+140e737 | Michael Son | 2025-01-29 | remove spring web
+cc7ac0e | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+ad4dc75 | Michael Son | 2025-01-29 | update spring boot starter web
+fd7134e | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+9e9db5b | Michael Son | 2025-01-29 | add spring boot started web and update spring web
+e1ea65c | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+c5de22a | Michael Son | 2025-01-29 | update twistlock
+4142067 | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+9a9bfef | Michael Son | 2025-01-29 | update spring web
+607f3a3 | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+20ade2b | Michael Son | 2025-01-29 | update spring web
+be60c19 | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+3f11942 | Michael Son | 2025-01-29 | remove webmvc
+439d1ae | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+b5c36a9 | Michael Son | 2025-01-29 | update twistlock
+3fa3aea | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+ec33bd8 | Michael Son | 2025-01-29 | commons update
+64764b4 | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+73d365f | Michael Son | 2025-01-29 | update opensaml
+54247be | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+81d4e89 | Michael Son | 2025-01-29 | spring security
+b0865c4 | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+1c9ac0e | Michael Son | 2025-01-29 | update twistlock
+bb3085d | Michael Son | 2025-01-29 | twistlock
+2c94177 | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+7d2be25 | Michael Son | 2025-01-29 | update parent
+2f673a2 | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+171a63a | Michael Son | 2025-01-29 | update spring boot started parent
+28f954f | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+b084bd8 | Michael Son | 2025-01-29 | update twistlock
+c121664 | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+f65a025 | Michael Son | 2025-01-29 | update commons
+b2eb309 | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+816d9ee | Michael Son | 2025-01-29 | update twistlock
+f8b71c0 | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+fda24f6 | Michael Son | 2025-01-29 | update spring
+0fb7f22 | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+bd4268f | Michael Son | 2025-01-29 | update spring web
+662600b | Michael Son | 2025-01-29 | Merge branch 'update-twistlock' into 'master'
+739864a | Michael Son | 2025-01-29 | update spring web
+150ba44 | Michael Son | 2024-07-11 | Merge branch '20240710-twistlock' into 'master'
+3eb4458 | Michael Son | 2024-07-11 | twistlock
+4e547df | Michael Son | 2024-07-11 | twistlock
+f1ee850 | Michael Son | 2024-07-11 | twistlock
+64f635f | Michael Son | 2024-07-11 | Merge branch '20240710-twistlock' into 'master'
+1feeb3b | Michael Son | 2024-07-11 | twistlock
+266cc73 | Michael Son | 2024-07-11 | twistlock
+2eeb179 | Michael Son | 2024-07-11 | twistlock
+1fa856e | Michael Son | 2024-07-11 | Merge branch '20240710-twistlock' into 'master'
+fd11faf | Michael Son | 2024-07-11 | twistlock
+5966235 | Michael Son | 2024-07-10 | update twistlock
+55ec0c5 | Michael Son | 2024-06-25 | Merge branch 'twistlock-update' into 'master'
+0bec497 | Michael Son | 2024-06-25 | fix twistlock
+d363051 | Michael Son | 2024-06-25 | Merge branch 'twistlock-update' into 'master'
+4115339 | Michael Son | 2024-06-25 | fix twistlock
+6d0785c | Michael Son | 2024-06-25 | Merge branch 'twistlock-update' into 'master'
+87c3132 | Michael Son | 2024-06-25 | fix twistlock
+83f42d1 | Michael Son | 2024-06-03 | Merge branch 'twistlock-update' into 'master'
+436503a | Michael Son | 2024-06-03 | twistlock errors
+0b9e0f8 | Michael Son | 2024-06-03 | Merge branch 'twistlock-update' into 'master'
+3349fe6 | Michael Son | 2024-06-03 | twistlock errors
+3641b70 | Michael Son | 2024-06-03 | Merge branch 'twistlock-update' into 'master'
+33601f4 | Michael Son | 2024-06-03 | twistlock errors
+1421dd5 | Michael Son | 2024-04-29 | Merge branch 'twistlock_update' into 'master'
+3d934fa | Michael Son | 2024-04-29 | update springboot v
+c125360 | Michael Son | 2024-04-29 | Merge branch 'twistlock_update' into 'master'
+15296b7 | Michael Son | 2024-04-29 | update springboot v
+20ff751 | Michael Son | 2024-04-29 | Merge branch 'twistlock_update' into 'master'
+e45a942 | Michael Son | 2024-04-29 | update springboot v
+0399637 | Michael Son | 2024-04-29 | Merge branch 'twistlock_update' into 'master'
+69e3227 | Michael Son | 2024-04-29 | update springboot v
+613eeee | Michael Son | 2024-04-29 | Merge branch 'twistlock_update' into 'master'
+20955d3 | Michael Son | 2024-04-29 | update springboot v
+76db2ba | Michael Son | 2024-04-02 | Merge branch 'twistlock_update' into 'master'
+923b699 | Michael Son | 2024-04-02 | update bouncy version
+9c96238 | Michael Son | 2024-04-02 | Merge branch 'twistlock_update' into 'master'
+5b4dd19 | Michael Son | 2024-04-02 | update bouncy version
+93ffd30 | Michael Son | 2024-03-19 | Merge branch 'twistlock_update' into 'master'
+c41027e | Michael Son | 2024-03-19 | update spring security version
+2e12417 | Simeranjeet Sandhu | 2024-03-14 | Merge branch 'twistlock_remediation' into 'master'
+4857144 | Michael Son | 2024-03-14 | update dependency versions
+22b081e | Simeranjeet Sandhu | 2024-01-30 | Merge branch 'pipeline-fix' into 'master'
+d7850ce | Simeranjeet Sandhu | 2024-01-30 | updated baseurl path
+5f696e7 | Seth Mednick | 2024-01-29 | Merge branch 'fixes' into 'master'
+5a5743e | smednick | 2024-01-29 | updating values
+c232bec | Simeranjeet Sandhu | 2024-01-27 | Merge branch 'pipeline-fix' into 'master'
+e55ae4c | Simeranjeet Sandhu | 2024-01-26 | Updated baseurl for e2e
+e27c69b | Simeranjeet Sandhu | 2024-01-25 | Merge branch 'pipeline-fix' into 'master'
+8e36844 | Simeranjeet Sandhu | 2024-01-25 | added cypress e2e tests
+64b8c97 | Seth Mednick | 2024-01-25 | Merge branch 'e2etests' into 'master'
+0dfef51 | smednick | 2024-01-25 | upgrade deps
+df96e92 | Seth Mednick | 2024-01-24 | Merge branch 'e2etests' into 'master'
+0732bca | smednick | 2024-01-24 | upgraded spring security
+46a79de | Seth Mednick | 2024-01-22 | Merge branch 'e2etests' into 'master'
+70ac5a3 | smednick | 2024-01-22 | updated test case
+4c31d1e | Seth Mednick | 2024-01-19 | Merge branch 'e2etests' into 'master'
+26c1c21 | smednick | 2024-01-19 | remove bad tests
+f906131 | Seth Mednick | 2024-01-19 | Merge branch 'e2etests' into 'master'
+9d68f9c | smednick | 2024-01-19 | initial cypress e2e push
+a1412b9 | Seth Mednick | 2024-01-18 | Merge branch 'zapadd' into 'master'
+27cd5f7 | smednick | 2024-01-18 | version update
+41fd5cd | Seth Mednick | 2024-01-18 | Merge branch 'zapadd' into 'master'
+80e9358 | smednick | 2024-01-18 | adding zap dependency
+c9c8669 | Simeranjeet Sandhu | 2024-01-09 | Merge branch 'pipeline-fix' into 'master'
+1b1786c | Simeranjeet Sandhu | 2024-01-09 | Twistlock: upgraded hutool-core
+56a8a5b | Simeranjeet Sandhu | 2023-12-18 | Merge branch 'depcheck-sq' into 'master'
+f75f0c5 | Simeranjeet Sandhu | 2023-12-18 | SQ deps: Upgraded sa-token-core to 1.37
+d124e6d | Seth Mednick | 2023-12-15 | Merge branch 'tempauth' into 'master'
+449ee60 | smednick | 2023-12-15 | removed bad test class
+d4c7137 | Seth Mednick | 2023-12-15 | Merge branch 'tempauth' into 'master'
+7663d91 | smednick | 2023-12-15 | for testing
+8a7ccda | Seth Mednick | 2023-12-15 | Merge branch 'tempauth' into 'master'
+d15ec15 | smednick | 2023-12-15 | for testing
+67cc33a | Seth Mednick | 2023-12-15 | Merge branch 'tempauth' into 'master'
+56fea26 | smednick | 2023-12-15 | adding test class for code coverage
+977f771 | Seth Mednick | 2023-12-15 | Merge branch 'tempauth' into 'master'
+25d29c1 | smednick | 2023-12-15 | adding test class for code coverage
+43833dc | Seth Mednick | 2023-12-14 | Merge branch 'tempauth' into 'master'
+d2b70c4 | smednick | 2023-12-14 | lint and testing
+cbd3113 | Seth Mednick | 2023-12-14 | Merge branch 'tempauth' into 'master'
+ab1450e | smednick | 2023-12-14 | lint and testing
+297cd55 | Seth Mednick | 2023-12-14 | Merge branch 'tempauth' into 'master'
+d14b394 | smednick | 2023-12-14 | add workaround when saml idp not provided to allow compliant start
+42ca7ec | Simeranjeet Sandhu | 2023-12-07 | Merge branch 'sq-dep' into 'master'
+7fc378a | Simeranjeet Sandhu | 2023-12-07 | fixed pom syntax
+9322f59 | Simeranjeet Sandhu | 2023-12-07 | Merge branch 'sq-dep' into 'master'
+eb2b1bc | Simeranjeet Sandhu | 2023-12-07 | Modified pom.xml: added jackson-core/removed commons.io dep man
+fb8de6a | Simeranjeet Sandhu | 2023-12-04 | Merge branch 'sq-dep' into 'master'
+3969b1d | Simeranjeet Sandhu | 2023-12-04 | SQ deps: logback-core upgraded to 1.4.14
+146f200 | Simeranjeet Sandhu | 2023-12-01 | Merge branch 'sq-dep' into 'master'
+95372ca | Simeranjeet Sandhu | 2023-12-01 | SQ deps: upgraded logback-core/classic
+2002a26 | Simeranjeet Sandhu | 2023-11-30 | Merge branch 'sq-dep' into 'master'
+f1252b2 | Simeranjeet Sandhu | 2023-11-30 | SQ Deps: Upgraded logback-core to 1.4.13
+4b19bce | Simeranjeet Sandhu | 2023-11-30 | SQ Deps: Upgraded logback-core to 1.4.13
+e0f089f | Simeranjeet Sandhu | 2023-11-30 | Merge branch 'sq-dep' into 'master'
+efb7734 | Simeranjeet Sandhu | 2023-11-30 | SQ deps: upgraded spring-boot-starter-logging to 3.0.13
+aa512d0 | Simeranjeet Sandhu | 2023-11-30 | SQ deps: upgraded spring-boot-starter-logging to 3.0.13
+f220942 | Simeranjeet Sandhu | 2023-11-30 | Merge branch 'sq-dep' into 'master'
+ab9fea0 | Simeranjeet Sandhu | 2023-11-30 | SQ Deps: Upgraded logback-core to 1.4.13
+89c6d86 | Simeranjeet Sandhu | 2023-11-30 | Merge branch 'sq-dep' into 'master'
+7a17ecb | Simeranjeet Sandhu | 2023-11-30 | Removed dep.txt
+87444df | Simeranjeet Sandhu | 2023-11-29 | Merge branch 'sq-dep' into 'master'
+87ecb60 | Simeranjeet Sandhu | 2023-11-29 | SQ Dep: Upgraded xmlsec to 2.2.6 in pom.xml
+1d4c943 | Simeranjeet Sandhu | 2023-11-29 | Merge branch 'sq-dep' into 'master'
+e8c67ef | Simeranjeet Sandhu | 2023-11-29 | SQ Dep: Removed dependencies
+b48dd4f | Simeranjeet Sandhu | 2023-11-29 | Merge branch 'sq-dep' into 'master'
+8cb2c39 | Simeranjeet Sandhu | 2023-11-29 | SQ Dep: Upgraded velocity-engine-core
+c72cef6 | Simeranjeet Sandhu | 2023-11-29 | Merge branch 'sq-dep' into 'master'
+1d3dfcd | Simeranjeet Sandhu | 2023-11-29 | Latest patched version for opensaml-saml-api/saml-impl used/Removed xmlsec exclusion
+1e08d20 | Simeranjeet Sandhu | 2023-11-29 | Merge branch 'sq-dep' into 'master'
+6b67bed | Simeranjeet Sandhu | 2023-11-29 | Removed xmlsec exclusion from saml-service-provider
+4cb8c36 | Simeranjeet Sandhu | 2023-11-29 | Merge branch 'sq-dep' into 'master'
+daa6ea3 | Simeranjeet Sandhu | 2023-11-29 | Upgraded spring-boot-starter-parent to 3.1.6
+86e60de | Simeranjeet Sandhu | 2023-11-28 | Merge branch 'sq-dep' into 'master'
+000fa41 | Simeranjeet Sandhu | 2023-11-28 | SQ deps: spring-web upgraded to 6.0.14/exclusions applied
+7ef1960 | Seth Mednick | 2023-11-28 | Merge branch 'samlprop' into 'master'
+c3688c8 | smednick | 2023-11-28 | saml service placeholder properties added
+096e773 | Simeranjeet Sandhu | 2023-11-27 | Merge branch 'sq-dep' into 'master'
+3fc2876 | Simeranjeet Sandhu | 2023-11-27 | modified .gitignore
+ce3b203 | Simeranjeet Sandhu | 2023-11-27 | Merge branch 'sq-dep' into 'master'
+f9df3da | Simeranjeet Sandhu | 2023-11-27 | Sq deps: removed jackson-core 2.14.2
+4a44c7b | Simeranjeet Sandhu | 2023-11-27 | Merge branch 'sq-dep' into 'master'
+1ed7028 | Simeranjeet Sandhu | 2023-11-27 | Sq deps: Upgraded guava to 32.0.1-jre/added exclusion
+204dd1c | Simeranjeet Sandhu | 2023-11-27 | Merge branch 'sq-dep' into 'master'
+6ee63fb | Simeranjeet Sandhu | 2023-11-27 | Sq deps: Upgraded bouncycastle bcprov-jdk15on to 1.70/added exclusin
+0fcc980 | Simeranjeet Sandhu | 2023-11-27 | Merge branch 'sq-dep' into 'master'
+9b78ba1 | Simeranjeet Sandhu | 2023-11-27 | Sq deps: added exclusions
+11b0cc6 | Simeranjeet Sandhu | 2023-11-27 | Merge branch 'sq-dep' into 'master'
+24c644e | Simeranjeet Sandhu | 2023-11-27 | Sq deps: plexus-container-default
+98fbeb1 | Simeranjeet Sandhu | 2023-11-27 | Merge branch 'sq-dep' into 'master'
+c586721 | Simeranjeet Sandhu | 2023-11-27 | Sq deps: plexus-container-default
+aa87100 | Simeranjeet Sandhu | 2023-11-22 | Merge branch 'sq-dep' into 'master'
+4b53241 | Simeranjeet Sandhu | 2023-11-22 | SQ deps: upgraded commons-compress for surefire-shared-utils
+3972a29 | Simeranjeet Sandhu | 2023-11-22 | Merge branch 'sq-dep' into 'master'
+c8cbc9a | Simeranjeet Sandhu | 2023-11-22 | SQ deps: upgraded commons-compress for surefire-shared-utils
+65b2124 | Seth Mednick | 2023-11-22 | Merge branch 'depcheck' into 'master'
+b9064b1 | smednick | 2023-11-22 | pom dep change
+a15548a | Simeranjeet Sandhu | 2023-11-21 | Merge branch 'ext-pipeline-fixes' into 'master'
+2ebf44b | Simeranjeet Sandhu | 2023-11-21 | SQ deps: added commons-io to dependency management. pom.xml
+b8149d8 | Simeranjeet Sandhu | 2023-11-21 | Merge branch 'ext-pipeline-fixes' into 'master'
+f554d0b | Simeranjeet Sandhu | 2023-11-21 | SQ deps: upgraded hutool
+301345c | Simeranjeet Sandhu | 2023-11-21 | Merge branch 'ext-pipeline-fixes' into 'master'
+7d0d7fc | Simeranjeet Sandhu | 2023-11-21 | SQ deps: removed jboss telltale from pom.xml
+121b34b | Simeranjeet Sandhu | 2023-11-21 | Merge branch 'ext-pipeline-fixes' into 'master'
+26fb00f | Simeranjeet Sandhu | 2023-11-21 | SQ deps: removed guava exclusion
+e2e37c3 | Simeranjeet Sandhu | 2023-11-21 | Merge branch 'ext-pipeline-fixes' into 'master'
+5a40fe0 | Simeranjeet Sandhu | 2023-11-21 | SQ deps: guava
+02609f1 | Simeranjeet Sandhu | 2023-11-21 | Merge branch 'ext-pipeline-fixes' into 'master'
+b566487 | Simeranjeet Sandhu | 2023-11-20 | Sq Deps: added surefire-shared-utils
+d2b2062 | Simeranjeet Sandhu | 2023-11-21 | Merge branch 'ext-pipeline-fixes' into 'master'
+5e7e53c | Simeranjeet Sandhu | 2023-11-20 | Sq Deps: excluded commons-io in maven-shared-utils
+97902ae | Simeranjeet Sandhu | 2023-11-21 | Merge branch 'ext-pipeline-fixes' into 'master'
+e057f18 | Simeranjeet Sandhu | 2023-11-20 | Reverting SQ dep changes in pom.xml
+cc2ec76 | Simeranjeet Sandhu | 2023-11-21 | Merge branch 'ext-pipeline-fixes' into 'master'
+c7e3f17 | Simeranjeet Sandhu | 2023-11-20 | adding maven 3.8.1
+fad5a2d | Simeranjeet Sandhu | 2023-11-21 | Merge branch 'ext-pipeline-fixes' into 'master'
+2200929 | Simeranjeet Sandhu | 2023-11-20 | SQ deps: plexus archiver 4.8.0
+711e41e | Simeranjeet Sandhu | 2023-11-21 | Merge branch 'ext-pipeline-fixes' into 'master'
+958122b | Simeranjeet Sandhu | 2023-11-20 | Downgraded spring-boot-starter-parent - REVERTED
+458030b | Simeranjeet Sandhu | 2023-11-21 | Merge branch 'ext-pipeline-fixes' into 'master'
+5de7b18 | Simeranjeet Sandhu | 2023-11-20 | Downgraded spring-boot-starter-parent
+9ab81ce | Simeranjeet Sandhu | 2023-11-20 | Sq deps: added codehaus.plexus pom
+444c20a | Simeranjeet Sandhu | 2023-11-20 | Merge branch 'ext-pipeline-fixes' into 'master'
+311b619 | Simeranjeet Sandhu | 2023-11-20 | SQ deps
+c97e199 | Simeranjeet Sandhu | 2023-11-20 | Merge branch 'ext-pipeline-fixes' into 'master'
+4058e87 | Simeranjeet Sandhu | 2023-11-20 | SQ deps: Spring boot starter parent
+58db6da | Simeranjeet Sandhu | 2023-11-20 | Merge branch 'ext-pipeline-fixes' into 'master'
+3da54ce | Simeranjeet Sandhu | 2023-11-20 | SQ deps: Removed codehaus.plexus to pom/excluded plexus-interpolation
+4f676b9 | Simeranjeet Sandhu | 2023-11-20 | Merge branch 'ext-pipeline-fixes' into 'master'
+6bee179 | Simeranjeet Sandhu | 2023-11-20 | SQ deps: Added codehaus.plexus to pom/removed plexus-utils/archiver
+e769ea9 | Simeranjeet Sandhu | 2023-11-20 | Merge branch 'ext-pipeline-fixes' into 'master'
+b8c632e | Simeranjeet Sandhu | 2023-11-20 | SQ deps: plexus-utils 3.0.24
+7edbd1f | Simeranjeet Sandhu | 2023-11-20 | Merge branch 'ext-pipeline-fixes' into 'master'
+6f8f9dd | Simeranjeet Sandhu | 2023-11-20 | SQ deps: plexus-archiver 4.8.0
+a262249 | Simeranjeet Sandhu | 2023-11-20 | Merge branch 'ext-pipeline-fixes' into 'master'
+852ef33 | Simeranjeet Sandhu | 2023-11-20 | SQ deps: excluded maven-artifact-manager
+47a7479 | Simeranjeet Sandhu | 2023-11-20 | Merge branch 'ext-pipeline-fixes' into 'master'
+6921c4a | Simeranjeet Sandhu | 2023-11-20 | SQ deps: excluded artifact-manager
+0b57929 | Simeranjeet Sandhu | 2023-11-20 | Merge branch 'ext-pipeline-fixes' into 'master'
+2dc7558 | Simeranjeet Sandhu | 2023-11-20 | SQ deps: excluding xmlsec
+b6009bf | Simeranjeet Sandhu | 2023-11-20 | Merge branch 'ext-pipeline-fixes' into 'master'
+830b27d | Simeranjeet Sandhu | 2023-11-20 | SQ deps: spring-boot-starter-security upgraded 3.0.7
+9987cf9 | Simeranjeet Sandhu | 2023-11-20 | Merge branch 'ext-pipeline-fixes' into 'master'
+bdc4b23 | Simeranjeet Sandhu | 2023-11-20 | SQ deps: spring-boot-starter-logging upgraded 3.0.7
+b989c63 | Simeranjeet Sandhu | 2023-11-20 | Merge branch 'ext-pipeline-fixes' into 'master'
+7798fa7 | Simeranjeet Sandhu | 2023-11-20 | SQ deps: org.apache.santuario xmlsec - REVERTING changes
+0cc1665 | Simeranjeet Sandhu | 2023-11-20 | Merge branch 'ext-pipeline-fixes' into 'master'
+4f0524f | Simeranjeet Sandhu | 2023-11-20 | SQ deps: org.apache.santuario xmlsec
+8e67976 | Simeranjeet Sandhu | 2023-11-20 | Merge branch 'ext-pipeline-fixes' into 'master'
+1f03621 | Simeranjeet Sandhu | 2023-11-20 | SQ deps: org.apache.santuario xmlsec
+acdc5f3 | Simeranjeet Sandhu | 2023-11-20 | Merge branch 'ext-pipeline-fixes' into 'master'
+09951d8 | Simeranjeet Sandhu | 2023-11-20 | Fixed syntax errors in pom.xml
+135e6d5 | Simeranjeet Sandhu | 2023-11-20 | SQ deps: org.apache.santuario xmlsec
+0f32e89 | Simeranjeet Sandhu | 2023-11-20 | Merge branch 'ext-pipeline-fixes' into 'master'
+cf0966e | Simeranjeet Sandhu | 2023-11-20 | Removing plexus-utils
+60f5f6b | Simeranjeet Sandhu | 2023-11-20 | Merge branch 'ext-pipeline-fixes' into 'master'
+2b36e0f | Simeranjeet Sandhu | 2023-11-20 | SQ deps: Adding plexus-archiver 4.8
+73c980a | Simeranjeet Sandhu | 2023-11-20 | Merge branch 'ext-pipeline-fixes' into 'master'
+3be4f01 | Simeranjeet Sandhu | 2023-11-20 | Added maven repo to pom.xml
+acd6c2c | Simeranjeet Sandhu | 2023-11-17 | Merge branch 'dep-checks' into 'master'
+9db6583 | Simeranjeet Sandhu | 2023-11-17 | SQ deps: plexus-utils
+77fb69d | Simeranjeet Sandhu | 2023-11-17 | Merge branch 'dep-checks' into 'master'
+ba81dcc | Simeranjeet Sandhu | 2023-11-17 | SQ deps: downgraded plexus-utils to 3.0.24
+c0c4a14 | Simeranjeet Sandhu | 2023-11-17 | Merge branch 'dep-checks' into 'master'
+a438320 | Simeranjeet Sandhu | 2023-11-17 | SQ deps: added plexus-utils
+cd65f86 | Simeranjeet Sandhu | 2023-11-17 | Merge branch 'dep-checks' into 'master'
+ac26b8f | Simeranjeet Sandhu | 2023-11-17 | SQ deps: removed plexus-utils
+373c6ca | Simeranjeet Sandhu | 2023-11-17 | Merge branch 'dep-checks' into 'master'
+a5f9d99 | Simeranjeet Sandhu | 2023-11-17 | SQ deps: plexus-component-annotations
+02064fb | Simeranjeet Sandhu | 2023-11-17 | Merge branch 'dep-checks' into 'master'
+9e9966e | Simeranjeet Sandhu | 2023-11-17 | Sq deps: plexus-component-annotations
+3708f07 | Simeranjeet Sandhu | 2023-11-17 | Merge branch 'dep-checks' into 'master'
+5a7dd3e | Simeranjeet Sandhu | 2023-11-17 | Testing xmlsec dep
+9d3be8b | Seth Mednick | 2023-11-17 | Merge branch 'logger' into 'master'
+827da93 | smednick | 2023-11-16 | adding logger for t315
+6d0a1ee | Simeranjeet Sandhu | 2023-11-16 | Merge branch 'dep-checks' into 'master'
+a462468 | Simeranjeet Sandhu | 2023-11-15 | SQ deps: upgraded xmlsec
+98fa033 | Simeranjeet Sandhu | 2023-11-16 | Merge branch 'dep-checks' into 'master'
+c6bdf67 | Simeranjeet Sandhu | 2023-11-15 | SQ deps: upgraded xmlsec
+2cbb31a | Simeranjeet Sandhu | 2023-11-16 | Merge branch 'dep-checks' into 'master'
+82c8a00 | Simeranjeet Sandhu | 2023-11-15 | SQ deps: upgraded xmlsec
+55ff222 | Simeranjeet Sandhu | 2023-11-15 | Merge branch 'dep-checks' into 'master'
+34e1362 | Simeranjeet Sandhu | 2023-11-15 | SQ deps: updated codehaus.plexus to latest
+122546a | Simeranjeet Sandhu | 2023-11-15 | Merge branch 'dep-checks' into 'master'
+60eaa14 | Simeranjeet Sandhu | 2023-11-15 | SQ deps: testing codehaus.plexus update
+8b78651 | Simeranjeet Sandhu | 2023-11-15 | Merge branch 'dep-checks' into 'master'
+d699730 | Simeranjeet Sandhu | 2023-11-15 | SQ Deps: jackson-databind
+45f9a2b | Simeranjeet Sandhu | 2023-11-15 | Merge branch 'dep-checks' into 'master'
+85a8336 | Simeranjeet Sandhu | 2023-11-15 | Sq Deps: plexus-component-annotations
+7773e8b | Simeranjeet Sandhu | 2023-11-15 | Merge branch 'dep-checks' into 'master'
+beb7a51 | Simeranjeet Sandhu | 2023-11-15 | SQ Deps: plxus-utils/plexus-archiver
+78747c7 | Simeranjeet Sandhu | 2023-11-15 | Merge branch 'dep-checks' into 'master'
+8529dff | Simeranjeet Sandhu | 2023-11-15 | upgraded maven-shared-utils to 3.3.3
+b7135bc | James Tobin | 2023-11-13 | Merge branch 'dep-fixes' into 'master'
+074deb0 | JDTobin | 2023-11-13 | update spring version
+58a90fb | James Tobin | 2023-11-13 | Merge branch 'dep-fixes' into 'master'
+f30f691 | JDTobin | 2023-11-13 | update deps
+cb4296b | James Tobin | 2023-11-07 | Merge branch 'pomchange' into 'master'
+a45d1ee | Seth Mednick | 2023-11-07 | address dependency issue
+2535607 | James Tobin | 2023-11-07 | Merge branch 'lint' into 'master'
+88e180d | JDTobin | 2023-11-07 | fix lint
+e879b0e | Seth Mednick | 2023-11-07 | Merge branch 'lintfix' into 'master'
+762d525 | Seth Mednick | 2023-11-07 | fix lint issues
+a9264e1 | Seth Mednick | 2023-11-07 | Merge branch 'typo' into 'master'
+5b1c53e | Seth Mednick | 2023-11-07 | Fixed typo
+ea1bfec | Seth Mednick | 2023-11-07 | Merge branch 'lintchange' into 'master'
+7997c61 | Seth Mednick | 2023-11-07 | Changes for sonar compliance
+4af1b72 | Seth Mednick | 2023-11-07 | Merge branch 'lintchange' into 'master'
+0b35591 | Seth Mednick | 2023-11-07 | pipeline compliance changes
+6162c97 | Seth Mednick | 2023-11-07 | Merge branch 'testcoverageseth' into 'master'
+fc3371c | Seth Mednick | 2023-11-07 | Testcoverageseth
+294d413 | James Tobin | 2023-11-06 | Merge branch 'testchange' into 'master'
+ae854dd | Seth Mednick | 2023-11-06 | Remove test case
+22ec3b2 | James Tobin | 2023-11-03 | Merge branch 'authtest' into 'master'
+d07ee0c | Seth Mednick | 2023-11-03 | Merge branch 'master' into 'authtest'
+49a8421 | smednick | 2023-11-03 | typo
+69cd1ca | James Tobin | 2023-11-03 | Merge branch 'authtest' into 'master'
+0ab7cc9 | Seth Mednick | 2023-11-03 | Authtest
+1561d51 | smednick | 2023-11-02 | typo
+746aaea | Seth Mednick | 2023-11-03 | Merge branch 'master' into 'authtest'
+b21c9ab | Seth Mednick | 2023-11-03 | remove duplicate
+c7d5470 | smednick | 2023-11-02 | test changes
+88b6c7e | James Tobin | 2023-11-02 | Merge branch 'typos' into 'master'
+e518bc3 | JDTobin | 2023-11-02 | fix typo
+74214de | James Tobin | 2023-11-02 | Merge branch 'test-fix' into 'master'
+148e636 | JDTobin | 2023-11-02 | fix spelling issues fix expected size
+39f52d2 | James Tobin | 2023-11-02 | Merge branch 'authtest' into 'master'
+0bdfb5a | smednick | 2023-11-02 | bug fix
+849d6ba | James Tobin | 2023-11-02 | Merge branch 'authtest' into 'master'
+0cf1f84 | smednick | 2023-11-02 | hopefully more readable changes
+5ff8962 | smednick | 2023-11-02 | auth test changes
+5b42624 | James Tobin | 2023-10-26 | Merge branch 'gh-updates' into 'master'
+f5ca7b0 | JDTobin | 2023-10-26 | fix line length
+784dbcb | James Tobin | 2023-10-26 | Merge branch 'gh-updates' into 'master'
+959470c | JDTobin | 2023-10-26 | rename parameter
+f42cedc | JDTobin | 2023-10-26 | make class final
+93f15b6 | James Tobin | 2023-10-26 | Merge branch 'gh-updates' into 'master'
+99a70b3 | JDTobin | 2023-10-26 | lint fixes for java docs and mark parameters final
+64a81f5 | James Tobin | 2023-10-25 | Merge branch 'gh-updates' into 'master'
+a5d9e46 | JDTobin | 2023-10-25 | fix import
+696405c | James Tobin | 2023-10-25 | Merge branch 'gh-updates' into 'master'
+81e8b0b | JDTobin | 2023-10-25 | remove duplicate dep entry
+41f0752 | James Tobin | 2023-10-25 | Merge branch 'gh-updates' into 'master'
+06762ec | JDTobin | 2023-10-25 | fix lint issues remove tabs add javadocs short line lengths
+19a8bb9 | James Tobin | 2023-10-25 | Merge branch 'gh-updates' into 'master'
+7b071dd | JDTobin | 2023-10-25 | update json version
+588a11c | JDTobin | 2023-10-25 | updates from github
+2dea3a8 | Seth Mednick | 2023-10-13 | Merge branch 'springupgrade' into 'master'
+e8dccb8 | Seth Mednick | 2023-10-13 | Update Spring to 3.0.6
+a086099 | Simeranjeet Sandhu | 2023-10-12 | Merge branch 'pipeline-fixes' into 'master'
+39e08c0 | Simeranjeet Sandhu | 2023-10-12 | Reverted base image to oraclejdk
+dde505e | Michael Son | 2023-03-10 | Merge branch 'develop2' into 'master'
+c1d57e4 | James Tobin | 2023-03-10 | Merge branch 'master' into 'develop2'
+6aae93c | Mohan | 2023-03-10 | removed Random number code
+659a693 | Michael Son | 2023-03-10 | Merge branch 'fix_null' into 'master'
+6715869 | JDTobin | 2023-03-10 | fix possible null pointer
+4f605c4 | Michael Son | 2023-03-10 | Merge branch 'develop2' into 'master'
+4e2ec42 | Mohan | 2023-03-10 | lint added
+4bf0cc5 | Michael Son | 2023-03-10 | Merge branch 'develop2' into 'master'
+5a9adc5 | Mohan | 2023-03-10 | corrected build issue and lint issues
+b8b8d03 | Michael Son | 2023-03-09 | Merge branch 'sonar_fixes' into 'master'
+ac93216 | JDTobin | 2023-03-09 | add back in Random
+4bf842a | Michael Son | 2023-03-09 | Merge branch 'sonar_fixes' into 'master'
+6f6ea31 | JDTobin | 2023-03-09 | fix imports
+89cdbdc | Michael Son | 2023-03-09 | Merge branch 'sonar_fixes' into 'master'
+1ff75d7 | JDTobin | 2023-03-09 | fixes issues raised in sonarqube
+9de766d | Michael Son | 2023-03-09 | Merge branch 'develop1' into 'master'
+3621ef2 | Mohan | 2023-03-09 | dummy xapi statements from local LRS
+9cb9d2a | Michael Son | 2023-03-09 | Merge branch 'develop1' into 'master'
+b968989 | Mohan | 2023-03-09 | dummy xapi statements from local LRS
+6947b04 | Simeranjeet Sandhu | 2023-02-28 | Merge branch 'ext-svc-deps' into 'master'
+191362b | ssandhu | 2023-02-28 | sonar dependency issue
+7d367d4 | Simeranjeet Sandhu | 2023-02-28 | Merge branch 'ext-svc-deps' into 'master'
+14343c3 | ssandhu | 2023-02-28 | updated spring boot starter parent version
+8ed076a | Michael Son | 2023-02-22 | Merge branch 'image-update' into 'master'
+1ab9ae1 | ssandhu | 2023-02-22 | updated Dockerfile image
+8c39c87 | Simeranjeet Sandhu | 2023-02-20 | Merge branch 'develop' into 'master'
+a22fa9b | Mohan Nelakurti | 2023-02-20 | updated based image to openjdk17:1.17
+63d423a | Michael Son | 2023-02-14 | Merge branch 'develop' into 'master'
+810d551 | Mohan | 2023-02-14 | updated jococo version and spring 3.0.2 for addressing  ch.qos.logback.classic.spi.Configurator
+ee10b4b | Michael Son | 2023-02-09 | Merge branch 'update_dockerimage' into 'master'
+a2529af | Michael Son | 2023-02-09 | update image to iron bank base
+6ae9579 | Michael Son | 2023-01-23 | Merge branch 'update-enc' into 'master'
+07bb588 | JDTobin | 2023-01-23 | remove provider-name update json-mapper arg path
+b9ec7af | Michael Son | 2023-01-20 | Merge branch 'jdtobin-master-patch-26027' into 'master'
+ca87504 | James Tobin | 2023-01-20 | reorder args
+6778e8a | Michael Son | 2023-01-20 | Merge branch 'jdtobin-master-patch-23003' into 'master'
+8f423fb | James Tobin | 2023-01-20 | disable fips
+e1c6c4d | Michael Son | 2023-01-19 | Merge branch 'update-spring' into 'master'
+c3c5ad4 | JDTobin | 2023-01-19 | update dependencies updates spring targets new java version updates other dependencies
+6b399ae | Michael Son | 2023-01-12 | Merge branch 'jdtobin-master-patch-54600' into 'master'
+f5b5514 | James Tobin | 2023-01-12 | set snakeyaml version
+75bbb14 | Michael Son | 2023-01-12 | Merge branch 'new-develop1' into 'master'
+fde6a7c | Mohan | 2023-01-12 | corrected few of sonar issues and one lint issue
+d2f36f1 | Michael Son | 2023-01-12 | Merge branch 'jdtobin-master-patch-56412' into 'master'
+9366c8d | James Tobin | 2023-01-12 | lint and sonarqube fixes
+f41d3a1 | Michael Son | 2023-01-12 | Merge branch 'new-develop' into 'master'
+e4dfb14 | Mohan | 2023-01-12 | to address onar depedencies issue
+26cc14c | Mohan | 2023-01-12 | addressing lint issues
+d0679f1 | Michael Son | 2023-01-12 | Merge branch 'new-develop' into 'master'
+e92b2da | Mohan | 2023-01-12 | Lint issues and SonarQube issue
+45ac378 | Michael Son | 2023-01-12 | Merge branch 'new-develop' into 'master'
+0984c0c | Mohan | 2023-01-12 | junit test cases coverage
+09516da | Michael Son | 2023-01-09 | Merge branch 'develop' into 'master'
+73ccaf9 | Mohan | 2023-01-09 | test coverage
+3f91bb4 | Michael Son | 2023-01-09 | Merge branch 'develop' into 'master'
+f88940b | Mohan | 2023-01-09 | test coverage
+674b982 | Michael Son | 2023-01-06 | Merge branch 'develop' into 'master'
+49b96fc | Mohan | 2023-01-06 | address lint and sonar issues
+da2f677 | Michael Son | 2023-01-06 | Merge branch 'develop' into 'master'
+509d317 | Mohan | 2023-01-05 | refactoring Junit test cases to avoid nullpointer exceptions
+49bd1b0 | Michael Son | 2023-01-05 | Merge branch 'develop' into 'master'
+bb8eba9 | Mohan | 2023-01-05 | junit changes to fix nullpointer exception
+51f14b8 | Michael Son | 2022-12-20 | Merge branch 'develop' into 'master'
+1a231d1 | Mohan | 2022-12-20 | made changes to support encrypted algorithm=PBEWithHMACSHA512AndAES_256
+6ea1a55 | Michael Son | 2022-12-12 | Merge branch 'mohannelakurti-master-patch-21743' into 'master'
+35eba22 | Mohan Nelakurti | 2022-12-12 | Update Dockerfile with ALGORITHM as parameter in ENTRYPOINT
+5f29274 | Mohan Nelakurti | 2022-12-12 | Update Dockerfile
+f341e46 | Michael Son | 2022-12-12 | Merge branch 'jdtobin-master-patch-27649' into 'master'
+36f5a18 | James Tobin | 2022-12-12 | add password flag
+1941da0 | Simeranjeet Sandhu | 2022-12-09 | Merge branch 'jdtobin-master-patch-02773' into 'master'
+d572302 | James Tobin | 2022-12-09 | set workdir to root
+137746c | Michael Son | 2022-12-06 | Merge branch 'jdtobin-master-patch-38883' into 'master'
+5cac912 | James Tobin | 2022-12-06 | exclude bad version
+080e5b7 | Michael Son | 2022-12-06 | Merge branch 'jdtobin-master-patch-93718' into 'master'
+49a1641 | James Tobin | 2022-12-06 | add min version
+b77b391 | Michael Son | 2022-12-06 | Merge branch 'jdtobin-master-patch-33902' into 'master'
+61c6d97 | James Tobin | 2022-12-06 | Update pom.xml
+2a52dee | Michael Son | 2022-11-28 | Merge branch 'develop' into 'master'
+b83e8c4 | Mohan Nelakurti | 2022-11-28 | updated pom.xml to fix the Sonar dependency check issues
+5f1661a | Michael Son | 2022-11-28 | Merge branch 'develop' into 'master'
+69ea7da | Mohan Nelakurti | 2022-11-28 | Update pom.xml
+f611bc1 | Michael Son | 2022-11-23 | Merge branch 'jdtobin-master-patch-83421' into 'master'
+8026b21 | James Tobin | 2022-11-23 | Update Dockerfile
+254253e | Michael Son | 2022-11-23 | Merge branch 'develop' into 'master'
+5299283 | Mohan Nelakurti | 2022-11-23 | added plug in to add all the dependency jars  as part of generated final jar Update pom.xml
+a5ccb05 | Michael Son | 2022-11-23 | Merge branch 'jdtobin-master-patch-51236' into 'master'
+46bc610 | James Tobin | 2022-11-23 | Update Dockerfile
+ecfd840 | Michael Son | 2022-11-23 | Merge branch 'jdtobin-master-patch-34441' into 'master'
+6f6ce77 | James Tobin | 2022-11-23 | Update Dockerfile
+7b89dd6 | Michael Son | 2022-11-23 | Merge branch 'jdtobin-master-patch-69835' into 'master'
+7ca0e61 | James Tobin | 2022-11-23 | Update Dockerfile
+7968f1c | Michael Son | 2022-11-17 | Merge branch 'develop' into 'master'
+3c1428c | Mohan | 2022-11-17 | updated jdk version
+e17f54c | Michael Son | 2022-06-28 | Merge branch 'update_dockerfile' into 'master'
+93f9e89 | Michael Son | 2022-06-28 | update dockerfile
+4bfdebf | Michael Son | 2022-03-28 | Merge branch 'mohannelakurti-master-patch-16534' into 'master'
+9ba638d | Mohan Nelakurti | 2022-03-28 | Update ELRRStageController.java
+303b359 | Michael Son | 2022-03-25 | Merge branch 'testcoverage' into 'master'
+ed75ffe | Mohan Nelakurti | 2022-03-24 | added test coverage lombok configuration for DTO classes
+7fd4ca4 | Michael Son | 2022-03-24 | Merge branch 'testcoverage' into 'master'
+e656ad2 | Mohan Nelakurti | 2022-03-24 | added junit test cases to increase test coverage %
+2ef212f | Michael Son | 2022-03-22 | Merge branch 'mohannelakurti-master-patch-50162' into 'master'
+ffd1d57 | Mohan Nelakurti | 2022-03-21 | Update pom.xml
+ae894d8 | Michael Son | 2022-03-17 | Merge branch 'mohannelakurti-master-patch-20246' into 'master'
+237c520 | Mohan Nelakurti | 2022-03-17 | Update pom.xml jacoco plugin details
+7df1ec9 | Michael Son | 2022-03-09 | Update src/main/resources/application-local.properties
+4e0b009 | Michael Son | 2022-03-09 | Merge branch 'remove_qa_dev' into 'master'
+5604609 | Michael Son | 2022-03-09 | Deleted src/main/resources/application-dev.properties, src/main/resources/application-qa.properties
+6719132 | Michael Son | 2022-03-09 | Merge branch 'sonarlint' into 'master'
+8988ab7 | Michael Son | 2022-03-09 | Merge branch 'master' into 'sonarlint'
+bd8fb63 | Mohan Nelakurti | 2022-03-09 | updated property files and ecrypted required parameters
+ecf9083 | Michael Son | 2022-03-09 | Update application.properties
+5574df6 | Michael Son | 2022-03-09 | Update application-local.properties
+65bd7a6 | Michael Son | 2022-03-09 | Update application.properties
+f84c751 | Michael Son | 2022-03-09 | Merge branch 'sonarlint' into 'master'
+e33c516 | Mohan Nelakurti | 2022-03-09 | junit coverage added
+17763c6 | Michael Son | 2022-03-09 | Merge branch 'update_properties' into 'master'
+35d35a7 | Michael Son | 2022-03-09 | Update src/main/resources/application-dev.properties, src/main/resources/application-local.properties, src/main/resources/application-qa.properties, src/main/resources/application.properties
+6e8aa50 | Michael Son | 2022-03-08 | Merge branch 'sonarlint' into 'master'
+af9899c | Mohan Nelakurti | 2022-03-08 | to fix Security Hotspots
+12310a3 | Michael Son | 2022-03-04 | Merge branch 'sonarlint' into 'master'
+7441c22 | Mohan Nelakurti | 2022-03-04 | exclusion tag added for commons-io
+b2fd39f | Michael Son | 2022-03-04 | Merge branch 'sonarlint' into 'master'
+2b5cc71 | Mohan Nelakurti | 2022-03-04 | exclusion tag added for bcprov-jdk16
+2806836 | Michael Son | 2022-03-04 | Update Dockerfile
+0d6b747 | Michael Son | 2022-03-04 | Merge branch 'sonarlint' into 'master'
+4687e95 | Mohan Nelakurti | 2022-03-04 | jdk 11 version changed in docker file
+eff5c22 | Michael Son | 2022-03-04 | Merge branch 'sonarlint' into 'master'
+b92d2c1 | Mohan Nelakurti | 2022-03-04 | jdk 17 version changed in docker file
+4fa4da2 | Mohan Nelakurti | 2022-03-04 | jdk 17 version changed
+52a5ec3 | Michael Son | 2022-03-04 | Merge branch 'sonarlint' into 'master'
+8df290d | Mohan Nelakurti | 2022-03-04 | jdk version changed
+9b5c747 | Michael Son | 2022-03-02 | Merge branch 'sonarlint' into 'master'
+a09c42f | Mohan Nelakurti | 2022-03-02 | removed other maven depedencies
+b613f7a | Michael Son | 2022-03-01 | Merge branch 'sonarlint' into 'master'
+0a56647 | Mohan Nelakurti | 2022-03-01 | pom.xml changes to address sonar scan issues
+80499dd | Michael Son | 2022-03-01 | Merge branch 'sonarlint' into 'master'
+cfb0753 | Mohan Nelakurti | 2022-03-01 | removed checkstyle error code
+143def8 | Michael Son | 2022-03-01 | Merge branch 'sonarlint' into 'master'
+e5605b5 | Mohan Nelakurti | 2022-03-01 | removed javax.binding dependency
+a52e479 | Michael Son | 2022-02-28 | Merge branch 'sonarlint' into 'master'
+301311f | Mohan Nelakurti | 2022-02-25 | sonarlint comments
+a6e470c | Michael Son | 2022-02-23 | Merge branch 'sonarlint' into 'master'
+c2e05fe | Mohan Nelakurti | 2022-02-23 | lint analysis pacakge info java findings fixes
+7a6bc2a | Michael Son | 2022-02-23 | Merge branch 'sonarlint' into 'master'
+9c83067 | Mohan Nelakurti | 2022-02-23 | lint analysis findings fixes
+5f83ef3 | Michael Son | 2022-02-22 | Merge branch 'sonarlint' into 'master'
+f1d9ce3 | Mohan Nelakurti | 2022-02-22 | sonarqube analysis findings fixes
+254187e | Michael Son | 2022-02-21 | Merge branch 'sonarlint' into 'master'
+e233ebd | Mohan Nelakurti | 2022-02-21 | sonarqube analysis findings fixes
+2aae8c3 | Michael Son | 2022-02-02 | Update Dockerfile
+8a3592d | Michael Son | 2022-01-20 | Merge branch 'initial_commit' into 'master'
+fc2ca36 | Michael Son | 2022-01-20 | Merge branch 'master' into 'initial_commit'
+417580e | Mohan Nelakurti | 2022-01-11 | Update README.md
+a61443c | Ubuntu | 2021-12-14 | removed k8 files
+c134d3c | Ubuntu | 2021-12-14 | initial commit
+47bacff | Michael Son | 2021-12-14 | Initial commit
+2800e86 | Mohan Nelakurti | 2021-09-20 | eclipse related files are added
+7d0775d | Mohan Nelakurti | 2021-09-20 | sonalint reported issues fixes
+88609f3 | Mohan Nelakurti | 2021-08-31 | Merge branch 'develop' of https://github.com/US-ELRR/elrrexternalservices into develop
+c7da897 | Mohan Nelakurti | 2021-08-31 | Kubernetes deployment files
+9b91360 | mnelakurti | 2021-08-23 | Update README.md
+c4a7ebb | mnelakurti | 2021-08-23 | Update README.md
+9467c3d | mnelakurti | 2021-08-23 | Update README.md
+cfda3d0 | Mohan Nelakurti | 2021-08-19 | Elrr external data services
+e2521ac | mnelakurti | 2021-05-04 | Initial commit

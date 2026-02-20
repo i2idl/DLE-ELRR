@@ -1,0 +1,40 @@
+# Runs elrr-services with Postgres - Provided for demonstration purposes only!
+# To run: docker compose up
+# See the Docker Compose docs for more info: https://docs.docker.com/compose/
+configs:
+  schema:
+    file: ./elrrserviceentities/dev-resources/schema.sql
+
+services:
+  postgres:
+    restart: always
+    image: "registry1.dso.mil/ironbank/opensource/postgres/postgresql:13.6"
+    configs:
+      - source: schema
+        target: /docker-entrypoint-initdb.d/schema.sql
+    ports:
+      - "5432:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: ${DC_PG_DB:?err}
+      POSTGRES_USER: ${DC_PG_USER:?err}
+      POSTGRES_PASSWORD: ${DC_PG_PASSWORD:?err}
+
+  elrr:
+    build: .
+    restart: always
+    ports:
+      - "8092:8092"
+    depends_on:
+      - postgres
+    environment:
+      PGHOST: postgres
+      PGPORT: 5432
+      PG_DATABASE: ${DC_PG_DB:?err}
+      PG_RW_USER: ${DC_PG_USER:?err}
+      PG_RW_PASSWORD: ${DC_PG_PASSWORD:?err}
+
+
+volumes:
+  db-data:

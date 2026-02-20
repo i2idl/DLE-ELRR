@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: elrr-datasync
+spec:
+  template:
+    spec:
+      containers:
+      - name: elrr-datasync
+        image: elrr/elrr-datasync
+        imagePullPolicy: Always
+        resources:
+          requests:
+            memory: "256Mi"
+          limits:
+            memory: "512Mi"
+        envFrom:
+        - secretRef:
+            name: pg-db-credentials
+        - secretRef:
+            name: postgres-connect-info
+        env:
+        - name: PG_DATABASE
+          valueFrom:
+            secretKeyRef:
+              name: pg-db-credentials
+              key: APP_DB_NAME1  #datasync_db
+        - name: PG_RW_USER
+          valueFrom:
+            secretKeyRef:
+              name: pg-db-credentials
+              key: PG_DB_RW_USER_1
+        - name: PG_RW_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: pg-db-credentials
+              key: PG_DB_RW_PASSWORD_1
+        - name: JASYPT_ENCRYPTOR_PASSWORD
+          value: "elrr-datasync"
+        - name: spring.kafka.bootstrap-servers
+          value: "elrr-kafka:9092"
+

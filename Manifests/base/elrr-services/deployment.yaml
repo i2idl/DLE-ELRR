@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: elrr-services
+spec:
+  template:
+    spec:
+      containers:
+      - name: elrr-services
+        image: elrr/elrr-services
+        imagePullPolicy: Always
+        envFrom:
+        - secretRef:
+            name: pg-db-credentials
+        - secretRef:
+            name: postgres-connect-info
+        - configMapRef:
+            name: cluster-prefix
+        env:
+        - name: JASYPT_ENCRYPTOR_PASSWORD
+          value: "elrr-services"
+        - name: ELRR_ADMIN_JWT_ROLE
+          value: "/Platform One/Products/adl-ousd/elrr/IL2/roles/admin"
+        - name: ELRR_ADMIN_JWT_ROLE_KEY
+          value: "group-full"
+        - name: ELRR_ADMIN_JWT_ISSUER_WHITELIST
+          value: "https://login.dso.mil/auth/realms/baby-yoda"
+        # This is not recommended for production deployments and proper API tokens should be created instead.
+        - name: ELRR_ADMIN_API_OVERRIDE
+          value: "true"
+        - name: PG_DATABASE
+          valueFrom:
+            secretKeyRef:
+              name: pg-db-credentials
+              key: APP_DB_NAME2
+        - name: PG_RW_USER
+          valueFrom:
+            secretKeyRef:
+              name: pg-db-credentials
+              key: PG_DB_RW_USER_2
+        - name: PG_RW_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: pg-db-credentials
+              key: PG_DB_RW_PASSWORD_2
+        - name: CLIENT_JWT_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: token-secret
+              key: CLIENT_JWT_SECRET
+        resources:
+          limits:
+            memory: 500Mi
